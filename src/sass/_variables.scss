@@ -1,0 +1,33 @@
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1400px,
+	xxxl:2000px
+);
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1140px,
+	xxl: 1230px,
+	xxxl:1800px
+);
+
+
+$black-mid:#1B1B1B;
+$gray:#444444;
+$gray-mid: #9B9B9B;
+$gray-light:#E0E0E0;
+
+$use-fade-in: true;
+$use-fade-out: true;
+$use-fade-enter: true;
+
+
+
+
+

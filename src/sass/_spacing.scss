@@ -1,0 +1,11 @@
+$spacer:1rem;
+$spacers:(
+	6: ($spacer * 6),
+	7: ($spacer * 12),
+	8: ($spacer * 16),
+	9: ($spacer * 24)
+);
+
+@function spacer($size) {
+	@return map-get($spacers, $size);
+}

@@ -1,0 +1,53 @@
+html, body {
+	font-family: 'Gilroy-Light';
+	width: 100%;
+	max-width:100%;
+	height: 100%;
+	color: #000;
+	overflow-x:hidden;
+}
+
+h1{
+	font-size: 60px;
+	line-height: 70px;
+}
+
+h2{
+	font-size: 45px;
+	line-height: 60px;
+}
+
+h3{
+	font-size: 33px;
+	line-height: 50px;
+}
+
+h4{
+	font-size: 26px;
+	line-height: 40px;
+}
+
+h5{
+	font-size: 12px;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px!important;
+	color: #fff;
+}
+
+p,a{
+	font-size: 15px!important;
+	line-height: 25px;
+}
+
+a,button{
+	text-decoration: none!important;
+	outline: none!important;
+}
+.hr{
+	border: 1px solid $gray-light;
+	width: 30px;
+	display: inline-block;
+	margin-bottom: 4px;
+	color: transparent;
+}
