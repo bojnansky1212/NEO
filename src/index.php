@@ -106,9 +106,4 @@
 	</div>
 </section>
 
-<body>
-
-<script src="js/app.js"></script> 
-
-</body>
-</html>
+<?php include "./components/footer.php" ?>
