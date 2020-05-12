@@ -91,14 +91,15 @@
 </section>
 <section id="develop">
 	<div class="container py-5">
-		<div class="develop-slider owl-carousel owl-theme">
-			<div class="item">
-				<div class="row">
-					<div class="col-md-5 py-6">
-						<h5>DEVELOPERSKÉ PROJEKTY</h5>
-						<h2>Bytový&nbsp;dom&nbsp;Lilum</h2>
-						<p>2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span> Bratislava</p>
-					</div>
+		<div class="row">
+			<div class="col-md-4 py-7 left">
+				<h5>DEVELOPERSKÉ PROJEKTY</h5>
+				<h2>Bytový&nbsp;dom&nbsp;Lilum</h2>
+				<p>2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span> Bratislava</p>
+			</div>
+			<div class="col-md-8 py-5">
+				<div class="develop-slider owl-carousel owl-theme">
+					<?php include "./components/develop.php" ?>
 				</div>
 			</div>
 		</div>

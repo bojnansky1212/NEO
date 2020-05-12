@@ -22250,9 +22250,6 @@ $('.ponuka-detail').on('initialized.owl.carousel changed.owl.carousel', function
   nav: true,
   dots: false,
   lazyLoad: true,
-  autoplay: true,
-  autoplaySpeed: 800,
-  autoplayTimeout: 5000,
   navText: ["<i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-chevron-right\" aria-hidden=\"true\"></i>"],
   responsive: {
     0: {
@@ -22260,15 +22257,35 @@ $('.ponuka-detail').on('initialized.owl.carousel changed.owl.carousel', function
     }
   }
 });
-$('.develop-slider').owlCarousel({
+var develop = $('.develop-slider').owlCarousel({
   loop: true,
-  animateOut: 'fadeOut',
-  animateIn: 'fadeIn',
   nav: false,
   dots: false,
   autoplay: true,
   autoplaySpeed: 800,
   autoplayTimeout: 5000,
+  margin: 80,
+  responsive: {
+    0: {
+      items: 1
+    }
+  }
+});
+$('.develop').on('initialized.owl.carousel changed.owl.carousel', function (e) {
+  if (!e.namespace) {
+    return;
+  }
+
+  var carousel = e.relatedTarget;
+  $(this).next('div').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+}).owlCarousel({
+  loop: true,
+  animateOut: 'fadeOut',
+  animateIn: 'fadeIn',
+  nav: true,
+  dots: false,
+  lazyLoad: true,
+  navText: ["<i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-chevron-right\" aria-hidden=\"true\"></i>"],
   responsive: {
     0: {
       items: 1

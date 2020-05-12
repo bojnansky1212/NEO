@@ -19216,7 +19216,7 @@ input {
   color: #fff;
   top: 20px;
   position: relative;
-  transition: 0.4s ease;
+  transition: 0.6s ease;
   float: left;
 }
 
@@ -19231,7 +19231,7 @@ input {
   height: 170px;
   top: 170px;
   background-size: cover;
-  transition: 0.4s ease;
+  transition: 0.6s ease;
 }
 
 #banner .buttons .indicator:hover,
@@ -19303,7 +19303,17 @@ input {
   z-index: 2;
 }
 
+owl-item {
+  transition: opacity 0.4s ease;
+}
+
 #develop {
+  background-color: #1B1B1B;
+  position: relative;
+}
+
+#develop .left {
+  z-index: 11;
   background-color: #1B1B1B;
 }
 
@@ -19314,5 +19324,63 @@ input {
 
 #develop p {
   color: #fff;
+}
+
+#develop .develop .item {
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+}
+
+#develop .develop .owl-stage-outer {
+  overflow: hidden !important;
+}
+
+#develop .develop .owl-nav {
+  background-color: #1B1B1B;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 80px;
+}
+
+#develop .develop .owl-nav .owl-next {
+  position: absolute;
+  right: 0;
+}
+
+#develop .develop .owl-nav .owl-next,
+#develop .develop .owl-nav .owl-prev {
+  border: 1px solid #444444;
+}
+
+#develop .develop .owl-nav i {
+  color: #fff;
+  padding: 10px 14px;
+}
+
+#develop .slider-counter {
+  position: relative;
+  top: -3.4rem;
+  z-index: 4;
+  color: #fff;
+  width: 20px;
+  left: 28px;
+  font-size: 12px;
+}
+
+#develop .develop-slider .owl-stage-outer {
+  overflow: unset;
+}
+
+#develop .container::after {
+  content: " ";
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  box-shadow: inset 87vw 0 0 -50vw #1B1B1B;
+  z-index: 10;
 }
 

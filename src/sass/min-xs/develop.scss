@@ -1,10 +1,67 @@
 #develop{
 	background-color: $black-mid;
+	position: relative;
+	.left{
+		z-index: 11;
+		background-color: $black-mid;
+	}
 	h2{
 		font-size: 60px;
 		color: #fff;
 	}
 	p{
 		color: #fff;
+	}
+	.develop{
+		.item{
+			height: 25rem;
+			background-size: cover;
+			background-position: center;
+		}
+		.owl-stage-outer{
+			overflow: hidden!important;
+		}
+		.owl-nav{
+			background-color: $black-mid;
+			position: absolute;
+			right: 0;
+			bottom:0;
+			width: 80px;
+			.owl-next{
+				position: absolute;
+				right: 0;
+			}
+			.owl-next,.owl-prev{
+				border: 1px solid $gray;
+			}
+			i{
+				color: #fff;
+				padding: 10px 14px;
+			}
+		}
+	}
+	.slider-counter{
+		position: relative;
+		top: -3.4rem;
+		z-index: 4;
+		color: #fff;
+		width: 20px;
+		left: 28px;
+		font-size: 12px;
+	}
+	.develop-slider{
+		.owl-stage-outer{
+			overflow: unset;
+		}
+	}
+	.container::after {
+		content: " ";
+		width: 50%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		position: absolute;
+		box-shadow: inset 87vw 0 0 -50vw $black-mid;
+		z-index: 10;
 	}
 }

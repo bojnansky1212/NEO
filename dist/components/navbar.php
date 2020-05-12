@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-8">
-				<img src="images/neo_logo.svg" alt="logo" class="logo mt-4 ml-3">
+				<img src="images/neo_logo.svg" alt="logo" class="logo my-4 ml-3">
 			</div>
 			<div class="col-4 text-right">
 				<button type="button" id="sidebarCollapse" class="navbar-btn active mt-4">
