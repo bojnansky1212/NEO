@@ -1,8 +1,8 @@
 {
     "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
     "/components/header.php": "/components/header.php",
     "/components/navbar.php": "/components/navbar.php",
-    "/index.php": "/index.php",
-    "/css/app.css": "/css/app.css",
-    "/components/ponuka.php": "/components/ponuka.php"
+    "/components/ponuka.php": "/components/ponuka.php",
+    "/index.php": "/index.php"
 }

@@ -15,6 +15,7 @@ let owl = $('.banner').owlCarousel({
 	autoplay:true,
 	autoplaySpeed:800,
 	autoplayTimeout:6000,
+	lazyLoad:true,
 	responsive:{
 		0:{
 			items:1
@@ -35,19 +36,31 @@ $('[data-slide]').click(function(event) {
 	$(".banner").trigger("to.owl.carousel", [id - 1, 1])
 });
 
-$('.ponuka-detail').owlCarousel({
-	loop:true,
-	animateOut: 'fadeOut',
-	animateIn: 'fadeIn',
-	nav:false,
-	dots:false,
-	autoplay:false,
-	responsive:{
-		0:{
-			items:1
-		},
-	}
-});
+$('.ponuka-detail').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+		if (!e.namespace){
+			return;
+		}
+		var carousel = e.relatedTarget;
+		$(this).next('div').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+	}).owlCarousel({
+		loop:true,
+		animateOut: 'fadeOut',
+		animateIn: 'fadeIn',
+		nav:true,
+		dots:false,
+		lazyLoad:true,
+		autoplay:true,
+		autoplaySpeed:800,
+		autoplayTimeout:5000,
+		navText: [`<i class="fa fa-chevron-left" aria-hidden="true"></i>`,
+		`<i class="fa fa-chevron-right" aria-hidden="true"></i>`],
+		responsive:{
+			0:{
+				items:1
+			},
+		}
+	});
+
 
 $('.develop-slider').owlCarousel({
 	loop:true,
@@ -67,6 +80,6 @@ $('.develop-slider').owlCarousel({
 
 $(window).scroll(function() {
 	var e = $(".navbar-custom");
-	e.toggleClass("scrolled", $(this).scrollTop() < e.height());
+	e.toggleClass("scrolled", $(this).scrollTop() > e.height());
 });
 

@@ -5,10 +5,42 @@
 	.ponuka-detail{
 		.obrazok{
 			width: 100%;
-			height: 16rem;
 			background-position: center;
 			background-size: cover;
+			padding-top: 65%;
+			img{
+				display: block;
+				width: 100%;
+				object-fit: cover!important;
+				position: absolute;
+				top: 0;
+				height: 100%;
+			}
 		}
+		.owl-nav{
+			background-color: rgba(0, 0, 0, 0.4);
+			position: absolute;
+			left: 0;
+			bottom: 1.5rem;
+			width: 80px;
+			.owl-next{
+				position: absolute;
+				right: 0;
+			}
+			i{
+				color: #fff;
+				padding: 10px;
+			}
+		}
+	}
+	.slider-counter{
+		position: relative;
+		top: -3.4rem;
+		z-index: 4;
+		color: #fff;
+		width: 20px;
+		left: 28px;
+		font-size: 16px;
 	}
 	.detail{
 		background-color: #fff;

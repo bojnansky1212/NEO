@@ -22218,6 +22218,7 @@ var owl = $('.banner').owlCarousel({
   autoplay: true,
   autoplaySpeed: 800,
   autoplayTimeout: 6000,
+  lazyLoad: true,
   responsive: {
     0: {
       items: 1
@@ -22235,13 +22236,24 @@ $('[data-slide]').click(function (event) {
   id = parseInt(id);
   $(".banner").trigger("to.owl.carousel", [id - 1, 1]);
 });
-$('.ponuka-detail').owlCarousel({
+$('.ponuka-detail').on('initialized.owl.carousel changed.owl.carousel', function (e) {
+  if (!e.namespace) {
+    return;
+  }
+
+  var carousel = e.relatedTarget;
+  $(this).next('div').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+}).owlCarousel({
   loop: true,
   animateOut: 'fadeOut',
   animateIn: 'fadeIn',
-  nav: false,
+  nav: true,
   dots: false,
-  autoplay: false,
+  lazyLoad: true,
+  autoplay: true,
+  autoplaySpeed: 800,
+  autoplayTimeout: 5000,
+  navText: ["<i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i>", "<i class=\"fa fa-chevron-right\" aria-hidden=\"true\"></i>"],
   responsive: {
     0: {
       items: 1
@@ -22265,7 +22277,7 @@ $('.develop-slider').owlCarousel({
 });
 $(window).scroll(function () {
   var e = $(".navbar-custom");
-  e.toggleClass("scrolled", $(this).scrollTop() < e.height());
+  e.toggleClass("scrolled", $(this).scrollTop() > e.height());
 });
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 

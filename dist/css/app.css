@@ -18967,9 +18967,6 @@ body {
 html,
 body {
   font-family: 'Gilroy-Light';
-  width: 100%;
-  max-width: 100%;
-  height: 100%;
   color: #000;
   overflow-x: hidden;
 }
@@ -19033,10 +19030,11 @@ button {
   background-color: transparent;
   width: 100%;
   z-index: 1000;
+  transition: background 0.4s ease;
 }
 
 .navbar-custom.scrolled {
-  background-color: #1B1B1B;
+  background: #1B1B1B;
 }
 
 a {
@@ -19177,7 +19175,7 @@ input {
 #banner {
   height: 100vh;
   background-color: #000;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 #banner .banner h2 {
@@ -19253,9 +19251,47 @@ input {
 
 #ponuka .ponuka-detail .obrazok {
   width: 100%;
-  height: 16rem;
   background-position: center;
   background-size: cover;
+  padding-top: 65%;
+}
+
+#ponuka .ponuka-detail .obrazok img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+#ponuka .ponuka-detail .owl-nav {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: 1.5rem;
+  width: 80px;
+}
+
+#ponuka .ponuka-detail .owl-nav .owl-next {
+  position: absolute;
+  right: 0;
+}
+
+#ponuka .ponuka-detail .owl-nav i {
+  color: #fff;
+  padding: 10px;
+}
+
+#ponuka .slider-counter {
+  position: relative;
+  top: -3.4rem;
+  z-index: 4;
+  color: #fff;
+  width: 20px;
+  left: 28px;
+  font-size: 16px;
 }
 
 #ponuka .detail {
