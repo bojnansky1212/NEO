@@ -129,6 +129,10 @@
 				<a href="" class="underline">Viac o spoločnosti</a>
 			</div>
 		</div>
+		<div class="col-md-4">
+			<h2 class="h1"><span>10</span>+</h2>
+			<h4>Rokov na trhu</h4>
+		</div>
 	</div>
 </section>
 

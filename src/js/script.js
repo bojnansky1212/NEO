@@ -60,7 +60,7 @@ $('.ponuka-detail').on('initialized.owl.carousel changed.owl.carousel', function
 
 
 let develop = $('.develop-slider').owlCarousel({
-	loop:true,
+	loop:false,
 	nav:false,
 	dots:false,
 	autoplay:true,
@@ -72,7 +72,7 @@ let develop = $('.develop-slider').owlCarousel({
 			items:1
 		},
 	}
-})
+});
 
 
 $('.develop').on('initialized.owl.carousel changed.owl.carousel', function(e) {
@@ -80,7 +80,16 @@ $('.develop').on('initialized.owl.carousel changed.owl.carousel', function(e) {
 			return;
 		}
 		var carousel = e.relatedTarget;
-		$(this).next('div').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+
+		$(this).next('div').html(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+		
+		let classs = $(this).data("remote");
+	
+		var kurvyVyjebane = document.getElementsByClassName(classs);
+		console.log(classs);
+		kurvyVyjebane[0].innerHTML = carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length;		
+
+		console.log($(this));
 	}).owlCarousel({
 		loop:true,
 		animateOut: 'fadeOut',
@@ -98,14 +107,18 @@ $('.develop').on('initialized.owl.carousel changed.owl.carousel', function(e) {
 		}
 	});
 
+var currentDevelopSlider = "";
 develop.on('changed.owl.carousel',function(property){
 	setTimeout(function(){
 		var current = $('.develop-slider .owl-stage-outer .owl-stage .active .test').data('index');
-		console.log(current);
-		$(".info").fadeOut(250);
-		setTimeout(function(){
-			$(current).fadeIn();
-		},270);
+		//console.log(current);
+		if (currentDevelopSlider !== current ) {
+			currentDevelopSlider = current;
+			$(".info").fadeOut(250);
+			setTimeout(function(){
+				$(current).fadeIn();
+			},270);
+		}
 	},100);
 });
 
