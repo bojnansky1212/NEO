@@ -8,16 +8,18 @@ footer {
 
 	.sponsor-slider {
 		.item img {
-			filter: grayscale(100%);
+			filter: grayscale(100%) invert(1) contrast(0.5);
 
 			&:hover {
 				filter: grayscale(0);
-				transition: 0.7s;				
+				transition: 0.3s;				
 			}
 		}
 	}
 
 	ul {
+		padding: 0;
+
 		li {
 			list-style: none;
 

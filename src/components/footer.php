@@ -1,12 +1,12 @@
 <footer>
 	<div class="container py-6">
-		<div class="row">
+		<div class="row  text-center text-md-left">
 			<div class="col-md-7">
 				<h2 class="h1">
-					Sme otvorení&nbsp;novým možnostiam
+					Sme otvorení novým možnostiam
 				</h2>
 			</div>
-			<div class="col-md-5 text-right mt-6">
+			<div class="col-md-5 text-center text-right mt-6">
 				<a href="" class="btn btn-white-transparent">
 					Kontaktujte nás
 				</a>
