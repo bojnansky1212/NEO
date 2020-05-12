@@ -20,16 +20,13 @@
 					<div class="col-md-9">
 						<div class="sponsor-slider owl-carousel owl-theme">
 							<div class="item">
-								<img src="images/icon-sponsore.png" alt="sponsore">
+								<img src="images/ismont.png" alt="ismont" class="mt-3">
 							</div>
 							<div class="item">
-								<img src="images/icon-sponsore.png" alt="sponsore">
+								<img src="images/royaldom.png" alt="royaldom">
 							</div>
 							<div class="item">
-								<img src="images/icon-sponsore.png" alt="sponsore">
-							</div>
-							<div class="item">
-								<img src="images/icon-sponsore.png" alt="sponsore">
+								<img src="images/stavmat.png" alt="stavmat" class="mt-5">
 							</div>
 						</div>
 					</div>
@@ -55,7 +52,7 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<div class="row">
+				<div class="row py-5">
 					<div class="col-md-6">
 						<ul>
 							<li>

@@ -7,9 +7,12 @@ footer {
 	}
 
 	.sponsor-slider {
-		.owl-item{
-			img {
-				width: 55%;
+		.item img {
+			filter: grayscale(100%);
+
+			&:hover {
+				filter: grayscale(0);
+				transition: 0.7s;				
 			}
 		}
 	}
@@ -17,6 +20,10 @@ footer {
 	ul {
 		li {
 			list-style: none;
+
+			a {
+				color: #fff!important;
+			}
 		}
 	}
 
