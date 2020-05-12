@@ -107,7 +107,7 @@ $('.develop').on('initialized.owl.carousel changed.owl.carousel', function(e) {
 		}
 	});
 
-var currentDevelopSlider = "";
+var currentDevelopSlider = "#info1";
 develop.on('changed.owl.carousel',function(property){
 	setTimeout(function(){
 		var current = $('.develop-slider .owl-stage-outer .owl-stage .active .test').data('index');
