@@ -70,7 +70,7 @@
 				<h2>Vybrané z aktuálnej ponuky</h2>
 			</div>
 			<div class="col-4 text-right">
-				<a href="/ponuka" class="show mt-4">Zobraziť všetky</a>
+				<a href="/ponuka" class="underline mt-4">Zobraziť všetky</a>
 			</div>
 		</div>
 		<div class="row ponuka pt-5">
@@ -84,7 +84,7 @@
 		</div>
 		<div class="row text-center">
 			<div class="col-12">
-				<a href="/ponuka" class="show">Zobraziť všetky</a>
+				<a href="/ponuka" class="underline">Zobraziť všetky</a>
 			</div>
 		</div>
 	</div>
@@ -92,15 +92,40 @@
 <section id="develop">
 	<div class="container py-5">
 		<div class="row">
-			<div class="col-md-4 py-7 left">
-				<h5>DEVELOPERSKÉ PROJEKTY</h5>
-				<h2>Bytový&nbsp;dom&nbsp;Lilum</h2>
-				<p>2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span> Bratislava</p>
+			<div class="col-md-4 py-6 left">
+				<div id="info1" class="info">
+					<h5>DEVELOPERSKÉ PROJEKTY</h5>
+					<h2>Bytový&nbsp;dom&nbsp;Lilum&nbsp;1</h2>
+					<p>2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span> Bratislava</p>
+					<a href="" class="btn btn-white-transparent">Zobraziť detail projektu</a>
+				</div>
+				<div id="info2" class="info" style="display: none;">
+					<h5>DEVELOPERSKÉ PROJEKTY</h5>
+					<h2>Bytový&nbsp;dom&nbsp;Lilum&nbsp;2</h2>
+					<p>2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span> Bratislava</p>
+					<a href="" class="btn btn-white-transparent">Zobraziť detail projektu</a>
+				</div>
+				<div id="info3" class="info" style="display: none;">
+					<h5>DEVELOPERSKÉ PROJEKTY</h5>
+					<h2>Bytový&nbsp;dom&nbsp;Lilum&nbsp;3</h2>
+					<p>2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span> Bratislava</p>
+					<a href="" class="btn btn-white-transparent">Zobraziť detail projektu</a>
+				</div>
 			</div>
 			<div class="col-md-8 py-5">
 				<div class="develop-slider owl-carousel owl-theme">
 					<?php include "./components/develop.php" ?>
 				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="statistics">
+	<div class="container py-5">
+		<div class="row">
+			<div class="col-md-4">
+				<h2 class="mb-4">Dlhoročné skúsenosti</h2>
+				<a href="" class="underline">Viac o spoločnosti</a>
 			</div>
 		</div>
 	</div>

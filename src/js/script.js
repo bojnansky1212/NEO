@@ -65,7 +65,7 @@ let develop = $('.develop-slider').owlCarousel({
 	dots:false,
 	autoplay:true,
 	autoplaySpeed:800,
-	autoplayTimeout:5000,
+	autoplayTimeout:10000,
 	margin: 80,
 	responsive:{
 		0:{
@@ -73,6 +73,7 @@ let develop = $('.develop-slider').owlCarousel({
 		},
 	}
 })
+
 
 $('.develop').on('initialized.owl.carousel changed.owl.carousel', function(e) {
 		if (!e.namespace){
@@ -87,6 +88,7 @@ $('.develop').on('initialized.owl.carousel changed.owl.carousel', function(e) {
 		nav:true,
 		dots:false,
 		lazyLoad:true,
+		mouseDrag:false,
 		navText: [`<i class="fa fa-chevron-left" aria-hidden="true"></i>`,
 		`<i class="fa fa-chevron-right" aria-hidden="true"></i>`],
 		responsive:{
@@ -95,6 +97,17 @@ $('.develop').on('initialized.owl.carousel changed.owl.carousel', function(e) {
 			},
 		}
 	});
+
+develop.on('changed.owl.carousel',function(property){
+	setTimeout(function(){
+		var current = $('.develop-slider .owl-stage-outer .owl-stage .active .test').data('index');
+		console.log(current);
+		$(".info").fadeOut(250);
+		setTimeout(function(){
+			$(current).fadeIn();
+		},270);
+	},100);
+});
 
 
 $(window).scroll(function() {

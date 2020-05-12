@@ -19,6 +19,7 @@
 .btn-transparent{
 	border: 1px solid $gray-light;
 	color: #000!important;
+	font-family: 'Gilroy-Bold';
 	&:hover{
 		border: 1px solid black;
 	}
@@ -41,4 +42,18 @@
 	&:active{
 		border: 1px solid #fff;
 	}
+}
+
+
+#banner{
+	.btn-white-transparent{
+		border: 1px solid rgba(255, 255, 255, 0.4);
+		color: #fff!important;
+		&:hover{
+			border: 1px solid #fff;
+		}
+		&:active{
+			border: 1px solid #fff;
+		}
+}
 }

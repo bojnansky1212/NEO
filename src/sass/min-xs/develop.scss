@@ -26,7 +26,8 @@
 			position: absolute;
 			right: 0;
 			bottom:0;
-			width: 80px;
+			width: 150px;
+			padding: 20px 0px 0 20px;
 			.owl-next{
 				position: absolute;
 				right: 0;
@@ -40,13 +41,19 @@
 			}
 		}
 	}
+	h5{
+		margin-bottom: spacer(5);
+	}
+	h2{
+		margin-bottom: spacer(4)
+	}
 	.slider-counter{
 		position: relative;
-		top: -3.4rem;
+		bottom: 1.8rem;
+		right: 9.6rem;
 		z-index: 4;
 		color: #fff;
 		width: 20px;
-		left: 28px;
 		font-size: 12px;
 	}
 	.develop-slider{
