@@ -1,0 +1,18 @@
+#banner-develop {
+	height: 100vh;
+	background-image: url(/images/slide2.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	h1 {
+		margin-top: 35vh;
+
+		&.background-font {
+			font-size: 140px;
+			line-height: 1.3;
+			letter-spacing: 18px;
+		}
+	}
+
+}

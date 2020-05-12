@@ -1,5 +1,6 @@
 <?php include "./components/header.php" ?>
 <?php include "./components/navbar.php" ?>
+
 <section id="banner" class="position-relative">
 	<div class="banner owl-carousel owl-theme">
 		<div class="item position-relative" >

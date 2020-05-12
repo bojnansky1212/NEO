@@ -1,0 +1,41 @@
+#develop-projects {
+	background-color: $black-mid;
+	color: #fff;
+
+	h2{
+		margin-top:  spacer(6);
+		margin-bottom: spacer(4);
+	}
+
+	p {
+		margin-bottom: spacer(4);
+
+	}
+
+	.hr {
+			border-top: 1px solid $gray; 
+		}
+
+	.image-item {
+	    background-position: right;
+	    background-size: cover;
+	    width: 100%;
+	    padding-top: 37%;
+
+	    &.image1 {
+	    	background-image: url(/images/lilum1.png);
+	    }
+
+	    &.image2 {
+	    	background-image: url(/images/lilum2.png);
+	    }
+		
+		&.image3 {
+	    	background-image: url(/images/lilum1.png);
+	    }
+
+	    &.image4 {
+	    	background-image: url(/images/lilum2.png);
+	    }
+	}
+}
