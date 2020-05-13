@@ -122,7 +122,7 @@
 	</div>
 </section>
 <section id="statistics">
-	<div class="container py-5">
+	<div class="container pt-5">
 		<div class="row">
 			<div class="col-md-4">
 				<h2 class="mb-4">Dlhoročné skúsenosti</h2>
@@ -152,6 +152,9 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="row">
+			<img class="w-100" src="images/postavy.png"/>
 		</div>
 	</div>
 </section>
