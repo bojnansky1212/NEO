@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-8">
 				<!--<img src="images/neo_logo.svg" alt="logo" class="logo my-4 ml-3"> -->
-				<?php echo file_get_contents("images/neo_logo.svg"); ?>
+				<a href="/"><?php echo file_get_contents("images/neo_logo.svg"); ?></a>
 			</div>
 			<div class="col-4 text-right">
 				<button type="button" id="sidebarCollapse" class="navbar-btn active my-4">

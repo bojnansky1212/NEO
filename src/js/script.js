@@ -126,7 +126,10 @@ $(window).scroll(function() {
 
 import anime from 'animejs/lib/anime.es.js';
 
-$(window).scroll(testScroll);
+
+if($(".numbers").length){
+		$(window).scroll(testScroll);
+	}
 var viewed = false;
 
 function isScrolledIntoView(elem) {
@@ -157,11 +160,11 @@ function testScroll() {
 }
 
 anime({
-  targets: 'path',
-  strokeDashoffset: [anime.setDashoffset, 0],
-  easing: 'easeInOutSine',
-  duration: 1000,
-  delay: function(el, i) { return i * 250 },
-  direction: 'alternate',
-  loop: true
+	targets: 'path',
+	strokeDashoffset: [anime.setDashoffset, 0],
+	easing: 'easeInOutSine',
+	duration: 1000,
+	delay: function(el, i) { return i * 250 },
+	direction: 'alternate',
+	loop: true
 });
