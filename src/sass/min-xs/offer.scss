@@ -1,0 +1,66 @@
+#offer {
+	background-color: $gray-light;
+
+	.offer-table {
+		width: 100%;
+
+		.table-head {
+			background-color: $black-mid;
+			color: #fff;
+			text-align: center;
+			vertical-align: center;
+			height: 5rem;
+		}
+
+		.table-row {
+			background-color:#fff;
+			border-bottom:1px solid $gray-light;
+			text-align:center;
+			vertical-align: center;
+			height: 5rem;
+		}
+	}
+
+	.pagination {
+		a {
+			width: 2.5rem;
+			height: 0;
+		}
+		
+		i {
+			width: 2.5rem;
+			height: 2.5rem;
+			text-align: center;
+			background-color: $black-mid;
+			color: #fff;
+			padding-top: 12px;
+		}
+
+		.prev {
+			//margin-left: -2.5rem;
+		}
+
+		.current {
+			width: 2.5rem;
+			height: 2.5rem;
+			text-align: center;
+			padding-top: 7px;
+			border: 1px solid $black-mid;
+		}  
+
+		.simple {
+			width: 2.5rem;
+			height: 2.5rem;
+			text-align: center;
+			padding-top: 7px;
+			border: 1px solid $gray-mid;
+		}
+
+		span {
+			width: 2.5rem;
+			height: 2.5rem;
+			padding-top: 5px;
+			text-align: center;
+		} 
+	}
+}
