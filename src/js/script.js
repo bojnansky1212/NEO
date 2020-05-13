@@ -86,10 +86,7 @@ $('.develop').on('initialized.owl.carousel changed.owl.carousel', function(e) {
 		let classs = $(this).data("remote");
 	
 		var kurvyVyjebane = document.getElementsByClassName(classs);
-		console.log(classs);
-		kurvyVyjebane[0].innerHTML = carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length;		
-
-		console.log($(this));
+		kurvyVyjebane[0].innerHTML = carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length;
 	}).owlCarousel({
 		loop:true,
 		animateOut: 'fadeOut',
@@ -111,7 +108,6 @@ var currentDevelopSlider = "#info1";
 develop.on('changed.owl.carousel',function(property){
 	setTimeout(function(){
 		var current = $('.develop-slider .owl-stage-outer .owl-stage .active .test').data('index');
-		//console.log(current);
 		if (currentDevelopSlider !== current ) {
 			currentDevelopSlider = current;
 			$(".info").fadeOut(250);
@@ -126,4 +122,46 @@ develop.on('changed.owl.carousel',function(property){
 $(window).scroll(function() {
 	var e = $(".navbar-custom");
 	e.toggleClass("scrolled", $(this).scrollTop() > e.height());
+});
+
+import anime from 'animejs/lib/anime.es.js';
+
+$(window).scroll(testScroll);
+var viewed = false;
+
+function isScrolledIntoView(elem) {
+	var docViewTop = $(window).scrollTop();
+	var docViewBottom = docViewTop + $(window).height();
+
+	var elemTop = $(elem).offset().top;
+	var elemBottom = elemTop + 100;
+
+	return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+function testScroll() {
+	if (isScrolledIntoView($(".numbers")) && !viewed) {
+			viewed = true;
+			$('.value').each(function () {
+			$(this).prop('Counter',0).animate({
+					Counter: $(this).text()
+			}, {
+					duration: 2000,
+					easing: 'swing',
+					step: function (now) {
+							$(this).text(Math.ceil(now));
+					}
+			});
+		});
+	}
+}
+
+anime({
+  targets: 'path',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInOutSine',
+  duration: 1500,
+  delay: function(el, i) { return i * 250 },
+  direction: 'alternate',
+  loop: true
 });

@@ -128,10 +128,30 @@
 				<h2 class="mb-4">Dlhoročné skúsenosti</h2>
 				<a href="" class="underline">Viac o spoločnosti</a>
 			</div>
-		</div>
-		<div class="col-md-4">
-			<h2 class="h1"><span>10</span>+</h2>
-			<h4>Rokov na trhu</h4>
+			<div class="col-md-8 px-md-0">
+				<div class="row numbers">
+					<div class="col-md-6">
+						<h2 class="h1"><span class="value">10</span>+</h2>
+						<h4 class="mb-5">Rokov na trhu</h4>
+					</div>
+					<div class="col-md-6">
+						<h2 class="h1"><span class="value">150000</span>+</h2>
+						<h4>m<sup>2</sup> predaných pozemkov</h4>
+					</div>
+					<div class="col-md-6">
+						<h2 class="h1"><span class="value">500</span>+</h2>
+						<h4>Predaných bytov</h4>
+					</div>
+					<div class="col-md-6">
+						<h2 class="h1"><span class="value">19000</span>+</h2>
+						<h4>Prenajatých skladových priestorov</h4>
+					</div>
+					<div class="col-md-6">
+						<h2 class="h1"><span class="value">100</span>+</h2>
+						<h4>Predaných rodinných domov</h4>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
