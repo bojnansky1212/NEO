@@ -1,0 +1,21 @@
+#project-info {
+	position: relative;
+	background-color: $black-mid;
+	color: #fff;
+
+	&::before{
+	    content: "";
+	    background-color: #fff;
+	    width: 100vw;
+	    height: 28%;
+	    position: absolute;
+	    bottom: 0;
+	}
+
+	.offseted {
+	    position: absolute;
+	    top: 0;
+	    left: 110%;
+	    width: 100%;
+	}
+}
