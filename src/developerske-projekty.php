@@ -2,10 +2,11 @@
 <?php include "./components/navbar.php" ?>
 
 <section id="banner-develop">
+	<div class="overlay" style="background-image: url(/images/slide2.png);"></div>
 	<div class="container">
 		<div class="row text-center">
-			<div class="col-12">
-				<h1 class="background-font">Developerské projekty</h1>
+			<div class="headline-wrapper">
+				<h1 id="clip">Developerské<br>projekty</h1>
 			</div>
 		</div>
 	</div>
