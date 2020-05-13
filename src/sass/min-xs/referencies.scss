@@ -1,0 +1,16 @@
+#referencies{
+	background-color: #171717;
+	position: relative;
+	&::before{
+		content: "";
+		width: 100vw;
+		position: absolute;
+		left: 0;
+		top:0;
+		background-color: #1F2020;
+		height: 50%;
+	}
+	h2{
+		color: #fff;
+	}
+}

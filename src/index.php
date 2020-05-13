@@ -65,7 +65,7 @@
 	</div>
 </section>
 <section id="ponuka">
-	<div class="container py-5">
+	<div class="container py-6">
 		<div class="row">
 			<div class="col-8">
 				<h2>Vybrané z aktuálnej ponuky</h2>
@@ -93,7 +93,7 @@
 <section id="develop">
 	<div class="container py-5">
 		<div class="row">
-			<div class="col-md-4 py-6 left">
+			<div class="col-md-4 py-7 left">
 				<div id="info1" class="info">
 					<h5>DEVELOPERSKÉ PROJEKTY</h5>
 					<h2>Bytový&nbsp;dom&nbsp;Lilum&nbsp;1</h2>
@@ -113,7 +113,7 @@
 					<a href="" class="btn btn-white-transparent">Zobraziť detail projektu</a>
 				</div>
 			</div>
-			<div class="col-md-8 py-5">
+			<div class="col-md-8 py-6">
 				<div class="develop-slider owl-carousel owl-theme">
 					<?php include "./components/develop.php" ?>
 				</div>
@@ -122,7 +122,7 @@
 	</div>
 </section>
 <section id="statistics">
-	<div class="container pt-5">
+	<div class="container pt-6">
 		<div class="row">
 			<div class="col-md-4">
 				<h2 class="mb-4">Dlhoročné skúsenosti</h2>
@@ -159,7 +159,33 @@
 	</div>
 </section>
 <section id="referencies">
-	
+	<div class="container py-6">
+		<div class="row">
+			<div class="col-md-4">
+				<h2>Povedali<br> o nás</h2>
+			</div>
+			<div class="col-md-8">
+				<div class="referencies owl-carousel owl-theme">
+					<div class="item text-justify">
+						<p>Oslovila som nemenovanú realitnú kanceláriu pre predaj bytu na Zámockej ulici. Bohužiaľ, ani po 10 mesačnom čakaní a ani po znížení ceny sa nepodarilo nájsť kupcu. Obrátila som sa preto na Arvin & Benet, ktorým sa za necelé 3 týždne podarilo nájsť kupcu. Celá spolupráca prebiehala s vysokou profesionalitou a zároveň v priateľskej atmosfére. Teším sa na ďalšiu spoluprácu!</p>
+						<p><strong>Filip Obuvník</strong></p>
+					</div>
+					<div class="item text-justify">
+						<p>Oslovila som nemenovanú realitnú kanceláriu pre predaj bytu na Zámockej ulici. Bohužiaľ, ani po 10 mesačnom čakaní a ani po znížení ceny sa nepodarilo nájsť kupcu. Obrátila som sa preto na Arvin & Benet, ktorým sa za necelé 3 týždne podarilo nájsť kupcu. Celá spolupráca prebiehala s vysokou profesionalitou a zároveň v priateľskej atmosfére. Teším sa na ďalšiu spoluprácu!</p>
+						<p><strong>Filip Obuvník</strong></p>
+					</div>
+					<div class="item text-justify">
+						<p>Oslovila som nemenovanú realitnú kanceláriu pre predaj bytu na Zámockej ulici. Bohužiaľ, ani po 10 mesačnom čakaní a ani po znížení ceny sa nepodarilo nájsť kupcu. Obrátila som sa preto na Arvin & Benet, ktorým sa za necelé 3 týždne podarilo nájsť kupcu. Celá spolupráca prebiehala s vysokou profesionalitou a zároveň v priateľskej atmosfére. Teším sa na ďalšiu spoluprácu!</p>
+						<p><strong>Filip Obuvník</strong></p>
+					</div>
+					<div class="item text-justify">
+						<p>Oslovila som nemenovanú realitnú kanceláriu pre predaj bytu na Zámockej ulici. Bohužiaľ, ani po 10 mesačnom čakaní a ani po znížení ceny sa nepodarilo nájsť kupcu. Obrátila som sa preto na Arvin & Benet, ktorým sa za necelé 3 týždne podarilo nájsť kupcu. Celá spolupráca prebiehala s vysokou profesionalitou a zároveň v priateľskej atmosfére. Teším sa na ďalšiu spoluprácu!</p>
+						<p><strong>Filip Obuvník</strong></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <?php include "./components/footer.php" ?>
