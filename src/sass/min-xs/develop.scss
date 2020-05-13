@@ -4,17 +4,18 @@
 	.left{
 		z-index: 11;
 		background-color: $black-mid;
+		min-height: 15rem;
 	}
 	h2{
-		font-size: 60px;
 		color: #fff;
+		white-space: nowrap;
 	}
 	p{
 		color: #fff;
 	}
 	.develop{
 		.item{
-			height: 25rem;
+			padding-top: 56%;
 			background-size: cover;
 			background-position: center;
 		}
@@ -60,15 +61,5 @@
 		.owl-stage-outer{
 			overflow: unset;
 		}
-	}
-	.container::after {
-		content: " ";
-		width: 50%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		position: absolute;
-		box-shadow: inset 87vw 0 0 -50vw $black-mid;
-		z-index: 10;
 	}
 }

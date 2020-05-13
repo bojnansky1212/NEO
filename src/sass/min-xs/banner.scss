@@ -6,8 +6,6 @@
 	.banner{
 		h2{
 			color: #fff;
-			font-size: 60px;
-			line-height: 70px;
 		}
 		.item{
 			height: 100vh;
@@ -20,6 +18,16 @@
 				position: absolute;
 			}
 		}
+	}
+	.vertical-center{
+		height: 100vh;
+		display: flex;
+		.ce{
+			margin: auto 0;
+		}
+	}
+	.btn{
+		width: 230px;
 	}
 	.buttons{
 		position: absolute;

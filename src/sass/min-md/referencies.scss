@@ -1,0 +1,28 @@
+@media (min-width: map-get($grid-breakpoints, md)) {
+	#referencies{
+		.referencies{
+			.owl-nav{
+				position: absolute;
+				left: -25rem;
+				bottom: 6rem;
+				width: 160px;
+				padding: 20px 0px 0 20px;
+				text-align: unset;
+				margin-top: 0;
+				.owl-next{
+					position: absolute;
+					right: 0;
+				}
+			}
+		}
+		.slider-counter{
+			position: absolute;
+			bottom: 6.6rem;
+			left: -19rem;
+			z-index: 4;
+			color: #fff;
+			width: 20px;
+			font-size: 12px;
+		}
+	}
+}

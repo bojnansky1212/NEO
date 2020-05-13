@@ -13,4 +13,41 @@
 	h2{
 		color: #fff;
 	}
+	.referencies{
+		.item{
+			background-color: #fff;
+			padding: 40px;
+			span{
+				float: right;
+			}
+			.fa-star{
+				&.fail{
+					color: $gray;
+				}
+			}
+		}
+		.owl-nav{
+			text-align: center;
+			margin-top: 2rem;
+			.owl-next{
+				margin-left: 4rem;
+			}
+			.owl-next,.owl-prev{
+				border: 1px solid $gray;
+			}
+			i{
+				color: #fff;
+				padding: 10px 14px;
+			}
+		}
+	}
+	.slider-counter{
+		position: absolute;
+		bottom: 0.6rem;
+		left: 11.2rem;
+		z-index: 6;
+		color: #fff;
+		width: 20px;
+		font-size: 12px;
+	}
 }

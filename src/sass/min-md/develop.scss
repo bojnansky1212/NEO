@@ -1,0 +1,14 @@
+@media (min-width: map-get($grid-breakpoints, md)) {
+	#develop{
+		.container::after {
+			content: " ";
+			width: 50%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			position: absolute;
+			box-shadow: inset 87vw 0 0 -50vw $black-mid;
+			z-index: 10;
+		}
+	}
+}

@@ -60,7 +60,7 @@ $('.ponuka-detail').on('initialized.owl.carousel changed.owl.carousel', function
 
 
 let develop = $('.develop-slider').owlCarousel({
-	loop:false,
+	loop:true,
 	nav:false,
 	dots:false,
 	autoplay:true,
@@ -79,15 +79,9 @@ $('.develop').on('initialized.owl.carousel changed.owl.carousel', function(e) {
 		if (!e.namespace){
 			return;
 		}
-		var carousel = e.relatedTarget;
-
-		$(this).next('div').html(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
-		
-		let classs = $(this).data("remote");
-	
-		var kurvyVyjebane = document.getElementsByClassName(classs);
-		kurvyVyjebane[0].innerHTML = carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length;
-	}).owlCarousel({
+var carousel = e.relatedTarget;
+		$(this).next('.slider-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+}).owlCarousel({
 		loop:true,
 		animateOut: 'fadeOut',
 		animateIn: 'fadeIn',
@@ -95,6 +89,7 @@ $('.develop').on('initialized.owl.carousel changed.owl.carousel', function(e) {
 		dots:false,
 		lazyLoad:true,
 		mouseDrag:false,
+		touchDrag:false,
 		navText: [`<i class="fa fa-chevron-left" aria-hidden="true"></i>`,
 		`<i class="fa fa-chevron-right" aria-hidden="true"></i>`],
 		responsive:{
@@ -123,6 +118,30 @@ $(window).scroll(function() {
 	var e = $(".navbar-custom");
 	e.toggleClass("scrolled", $(this).scrollTop() > e.height());
 });
+
+$('.referencies').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+		if (!e.namespace){
+			return;
+		}
+		var carousel = e.relatedTarget;
+		$(this).next('.slider-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+	}).owlCarousel({
+		loop:true,
+		nav:true,
+		dots:false,
+		lazyLoad:true,
+		margin:60,
+		navText: [`<i class="fa fa-chevron-left" aria-hidden="true"></i>`,
+		`<i class="fa fa-chevron-right" aria-hidden="true"></i>`],
+		responsive:{
+			0:{
+				items:1
+			},
+			769:{
+				items:2
+			},
+		}
+	});
 
 import anime from 'animejs/lib/anime.es.js';
 
