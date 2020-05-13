@@ -63,6 +63,7 @@ let develop = $('.develop-slider').owlCarousel({
 	loop:true,
 	nav:false,
 	dots:false,
+	lazyLoad:true,
 	autoplay:true,
 	autoplaySpeed:800,
 	autoplayTimeout:10000,

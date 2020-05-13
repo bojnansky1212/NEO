@@ -4,7 +4,7 @@
 <section id="banner" class="position-relative">
 	<div class="banner owl-carousel owl-theme">
 		<div class="item position-relative" >
-			<div class="bg"style="background-image: url(/images/slide1.png);"></div>
+			<div class="bg"style="background-image: url(/images/slide1.jpg);"></div>
 			<div class="container">
 				<div class="col-md-8">
 					<div class="vertical-center">
@@ -18,7 +18,7 @@
 			</div>
 		</div>
 		<div class="item position-relative" >
-			<div class="bg"style="background-image: url(/images/slide2.png);"></div>
+			<div class="bg"style="background-image: url(/images/slide2.jpg);"></div>
 			<div class="container">
 				<div class="col-md-8">
 					<div class="vertical-center">
@@ -32,7 +32,7 @@
 			</div>
 		</div>
 		<div class="item position-relative" >
-			<div class="bg"style="background-image: url(/images/slide3.png);"></div>
+			<div class="bg"style="background-image: url(/images/slide3.jpg);"></div>
 			<div class="container">
 				<div class="col-md-8">
 					<div class="vertical-center">
@@ -50,7 +50,7 @@
 	<div class="buttons d-md-block d-none">
 		<div class="container">
 			<button id="indicator1" class="indicator active" data-slide="1">
-				<div class="indicator-img" style="background-image: url(/images/slide1.png);"></div>
+				<div class="indicator-img" style="background-image: url(/images/slide1.jpg);"></div>
 				<div class="center">
 					<p class="m-auto">
 						O spoločnosti
@@ -58,7 +58,7 @@
 				</div>
 			</button>
 			<button id="indicator2" class="indicator" data-slide="2">
-				<div class="indicator-img" style="background-image: url(/images/slide2.png);"></div>
+				<div class="indicator-img" style="background-image: url(/images/slide2.jpg);"></div>
 				<div class="center">
 					<p class="m-auto">
 						Developerské projekty
@@ -66,7 +66,7 @@
 				</div>
 			</div>
 			<button id="indicator3" class="indicator" data-slide="3">
-				<div class="indicator-img" style="background-image: url(/images/slide3.png);"></div>
+				<div class="indicator-img" style="background-image: url(/images/slide3.jpg);"></div>
 				<div class="center">
 					<p class="m-auto">
 						Nehnuteľnosti
