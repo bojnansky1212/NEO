@@ -18,7 +18,11 @@
 
     	.select2-selection--single {
     		outline: none;
-    		border: none; 
+    		border: none;
+
+    		.select2-selection__placeholder {
+    			color: $gray-light;
+    		}
     	}
 
     }

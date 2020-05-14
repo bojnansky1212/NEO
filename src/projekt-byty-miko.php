@@ -12,10 +12,10 @@
 	</div>
 </section>
 <section id="project-info">
-	<div class="container py-6">
+	<div class="container py-5 py-md-6">
 		<div class="row text-center">
 			<div class="col-md-9 m-auto">
-				<p class="mb-5">
+				<p class="mb-4 mb-md-5">
 					2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span> Trnava
 				</p>
 				<h2 class="h1 mb-4">Byty Miko</h2>
@@ -25,9 +25,9 @@
 				<h4 class="mb-4">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores dolor deleniti odit voluptates illum officia adipisci id nesciunt in blanditiis, a consequuntur iusto voluptas voluptatibus dolorem commodi repellendus? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 				</h4>
-				<a href="" class="btn btn-white-transparent mt-2">Bytymiko.sk</a>
+				<a href="" class="btn btn-white-transparent mt-2 mb-5 mb-md-0">Bytymiko.sk</a>
 			</div>
-			<div class="col-md-10 px-md-0 mt-md-6">
+			<div class="col-11 col-md-10 px-md-0 mt-md-6">
 				<a data-lightbox="image" href="images/miko.png">
 					<img src="images/miko.png" class="w-100" alt="Miko" />
 				</a>
@@ -40,10 +40,10 @@
 	</div>
 </section>
 <section id="reasons-why">
-	<div class="container py-6">
-		<div class="row text-center text-md-left">
+	<div class="container py-5 py-md-6">
+		<div class="row text-left">
 			<div class="col-md-5">
-				<h2>Prečo bývať<br>v Miko</h2>
+				<h2 class="mb-4 mb-md-0">Prečo bývať v Miko</h2>
 			</div>
 			<div class="col-md-7">
 				<div id="accordion">
@@ -113,7 +113,7 @@
 	</div>
 </section>
 <section id="offer">
-	<div class="container py-6">
+	<div class="container py-5 py-md-6">
 		<div class="row">
 			<div class="col-12">
 				<h2 class="mb-4">Ponuka bytov</h2>
@@ -128,22 +128,22 @@
 							<th >
 								Číslo bytu
 							</th>
-							<th >
+							<th class="d-none d-md-table-cell">
 								Podlažie
 							</th>
-							<th >
+							<th class="d-none d-md-table-cell">
 								Počet izieb
 							</th>
-							<th >
+							<th class="d-none d-md-table-cell">
 								Plocha bytu
 							</th>
-							<th >
+							<th class="d-none d-md-table-cell">
 								Terasa
 							</th>
-							<th >
+							<th class="d-none d-md-table-cell">
 								Cena(EUR)
 							</th>
-							<th >
+							<th class="d-none d-md-table-cell">
 								Stav
 							</th>
 						</tr>
@@ -156,22 +156,22 @@
 							<td >
 								A1-03-06-05
 							</td>
-							<td >
+							<td class="d-none d-md-table-cell"s>
 								6
 							</td>
-							<td >
+							<td class="d-none d-md-table-cell">
 								4+KK
 							</td>
-							<td >
+							<td class="d-none d-md-table-cell">
 								87,48 m2
 							</td>
-							<td >
+							<td class="d-none d-md-table-cell">
 								22,00 m2
 							</td>
-							<td >
+							<td class="d-none d-md-table-cell">
 								190,00
 							</td>
-							<td >
+							<td class="d-none d-md-table-cell">
 								Predaný
 							</td>
 						</tr>
@@ -181,29 +181,30 @@
 							</td>
 							<td >
 								A1-03-06-05
-							</td><td >
+							</td>
+							<td class="d-none d-md-table-cell">
 								6
 							</td>
-							<td >
+							<td class="d-none d-md-table-cell">
 								4+KK
 							</td>
-							<td >
+							<td class="d-none d-md-table-cell">
 								87,48 m2
 							</td>
-							<td >
+							<td class="d-none d-md-table-cell">
 								22,00 m2
 							</td>
-							<td >
+							<td class="d-none d-md-table-cell">
 								190,00
 							</td>
-							<td >
+							<td class="d-none d-md-table-cell">
 								Predaný
 							</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
-			<div class="col-md-3 offset-md-9 mt-5">
+			<div class="col-10 col-md-5 col-lg-4 col-xl-3 offset-1 offset-md-7 offset-lg-8 offset-xl-9 mt-5 text-right">
 				<div class="pagination">
 					<a class="prev page-numbers" href="">
 						<i class="fas fa-chevron-left"></i>
@@ -223,12 +224,12 @@
 	</div>
 </section>
 <section id="contact">
-	<div class="container py-6">
+	<div class="container py-5 py-md-6">
 		<div class="row text-center">
-			<div class="col-8 m-md-auto">
+			<div class="col-md-8 m-md-auto">
 				<h2 class="mb-5">V prípade prípade záujmu nám pošlite vaše kontaktné údaje.<br>Náš maklér vás bude kontaktovať</h2>
 			</div>
-			<div class="col-md-6 m-md-auto">
+			<div class="col-md-5 m-md-auto">
 				<form>
 					<div class="row">
 						<div class="col-12">
@@ -270,16 +271,20 @@
 	</div>
 </section>
 <section id="windows">
-	<div class="container">
+	<div class="container px-0 px-md-3">
 		<div class="row no-gutters">
 			<div class="col-md-6 window">
-				<div class="bg d-flex h-100" style="background-image: url(/images/miko.png);">
-					<h3 class="m-auto">Bytový dom Lilum</h3>
+				<div class="bg" style="background-image: url(/images/miko.png);">
+				</div>
+				<div class="d-flex h-100">
+					<h2 class="m-auto">Bytový dom Lilum</h2>
 				</div>
 			</div>
 			<div class="col-md-6 window">
-				<div class="bg d-flex h-100" style="background-image: url(/images/lilum1.png);">
-					<h3 class="m-auto">Vily lužná</h3>
+				<div class="bg" style="background-image: url(/images/miko.png);">
+				</div>
+				<div class="d-flex h-100">
+					<h2 class="m-auto">Vily lužná</h2>
 				</div>
 			</div>
 		</div>

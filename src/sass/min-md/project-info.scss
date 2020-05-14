@@ -1,0 +1,12 @@
+@media (min-width: map-get($grid-breakpoints, md)) {
+	#project-info {
+		&::before{
+		    height: 28%;
+		}
+
+		.offseted {
+		    width: 100%;
+		    left: 110%;
+		}
+	}
+}
