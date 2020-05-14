@@ -1,6 +1,7 @@
 #referencies{
 	background-color: #171717;
 	position: relative;
+	bottom: -1px;
 	&::before{
 		content: "";
 		width: 100vw;
@@ -22,7 +23,7 @@
 			}
 			.fa-star{
 				&.fail{
-					color: $gray;
+					color: $gray-mid;
 				}
 			}
 		}

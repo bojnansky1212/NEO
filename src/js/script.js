@@ -12,6 +12,8 @@ let owl = $('.banner').owlCarousel({
 	animateIn: 'fadeIn',
 	nav:false,
 	dots:false,
+	mouseDrag:false,
+	touchDrag:false,
 	autoplay:true,
 	autoplaySpeed:800,
 	autoplayTimeout:6000,
@@ -64,12 +66,13 @@ $('.ponuka-detail').on('initialized.owl.carousel changed.owl.carousel', function
 		$(this).next('div').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
 	}).owlCarousel({
 		loop:true,
-		animateOut: 'fadeOut',
-		animateIn: 'fadeIn',
+		animateOut: 'fadeOutUp',
+		animateIn: 'fadeInDown',
 		nav:true,
 		dots:false,
 		lazyLoad:true,
 		mouseDrag:false,
+		slideSpeed: 100,
 		touchDrag:false,
 		navText: [`<i class="fa fa-chevron-left" aria-hidden="true"></i>`,
 		`<i class="fa fa-chevron-right" aria-hidden="true"></i>`],
@@ -128,10 +131,10 @@ develop.on('changed.owl.carousel',function(property){
 		var current = $('.develop-slider .owl-stage-outer .owl-stage .active .test').data('index');
 		if (currentDevelopSlider !== current ) {
 			currentDevelopSlider = current;
-			$(".info").fadeOut(250);
+			$(".info").fadeOut(100);
 			setTimeout(function(){
 				$(current).fadeIn();
-			},270);
+			},120);
 		}
 	},100);
 });

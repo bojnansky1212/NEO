@@ -13,29 +13,8 @@
 	&.scrolled{
 		background: $black-mid;
 	}
-	input{
-		width: 100%;
-		background-color: transparent;
-		border: none;
-		border-bottom: 1px solid $gray;
-		color: $gray;
-		padding: 15.5px;
-	}
 }
 
-
-a{
-	color: $gray;
-	display: block;
-	font-size: 26px;
-}
-
-h1{
-	color: #fff;
-	span.disabled{
-		color: $gray;
-	}
-}
 
 
 .wrapper{
@@ -46,6 +25,30 @@ h1{
 	&.active{
 		z-index: 900;
 		pointer-events: auto;
+	}
+
+	a{
+		color: $gray;
+		display: block;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+	h1{
+		color: #fff;
+		font-size: 38px;
+		span.disabled{
+			color: $gray;
+		}
+	}
+
+	input{
+		width: 100%;
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid $gray;
+		color: $gray;
+		padding: 15.5px;
 	}
 }
 

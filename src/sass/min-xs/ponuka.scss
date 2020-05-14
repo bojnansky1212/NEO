@@ -48,10 +48,6 @@
 		padding-top: 20px;
 		position: relative;
 		top: -3rem;
-		z-index: 2;
+		z-index: 10;
 	}
-}
-
-owl-item {
-	transition: opacity 0.4s ease;
 }

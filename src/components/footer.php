@@ -34,7 +34,7 @@
 				<hr class="footer-hr">
 			</div>
 			<div class="col-12">
-				<a href="/"><?php echo file_get_contents("images/neo_logo.svg"); ?></a>
+				<img src="images/neo_logo.svg" alt="logo" class="logo mt-4">
 			</div>
 			<div class="col-6">
 				<div class="row">

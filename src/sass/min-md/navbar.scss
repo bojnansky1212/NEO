@@ -1,0 +1,11 @@
+@media (min-width: map-get($grid-breakpoints, md)) {
+	.wrapper{
+		h1{
+			font-size: 60px
+		}
+
+		a{
+			font-size: 26px;
+		}
+	}
+}

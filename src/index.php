@@ -6,8 +6,8 @@
 		<div class="item position-relative" >
 			<div class="bg"style="background-image: url(/images/slide1.jpg);"></div>
 			<div class="container">
-				<div class="col-md-8">
-					<div class="vertical-center">
+				<div class="col-xl-8 col-md-10">
+					<div class="vertical-center pb-xl-0 pb-5">
 						<div class="ce text-md-left text-center">
 							<h5>O spoločnosti</h5>
 							<h2 class="h1">Sme Neoreal. <br>Spoľahlivý partner <br>pre realitné projekty</h2>
@@ -20,8 +20,8 @@
 		<div class="item position-relative" >
 			<div class="bg"style="background-image: url(/images/slide2.jpg);"></div>
 			<div class="container">
-				<div class="col-md-8">
-					<div class="vertical-center">
+				<div class="col-xl-8 col-md-10">
+					<div class="vertical-center pb-xl-0 pb-5">
 						<div class="ce text-md-left text-center">
 							<h5>Developerské projekty</h5>
 							<h2 class="h1">Premýšľame v&nbsp;detailoch, <br>ponúkame komplexné <br>riešenia</h2>
@@ -34,8 +34,8 @@
 		<div class="item position-relative" >
 			<div class="bg"style="background-image: url(/images/slide3.jpg);"></div>
 			<div class="container">
-				<div class="col-md-8">
-					<div class="vertical-center">
+				<div class="col-xl-8 col-md-10 ">
+					<div class="vertical-center pb-xl-0 pb-5">
 						<div class="ce text-md-left text-center">
 							<h5>Nehnuteľnosti</h5>
 							<h2 class="h1">Využite naše znalosti <br>pri investícii, kúpe <br>a predaji realít</h2>
@@ -47,7 +47,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="buttons d-lg-block d-none">
+	<div class="buttons d-md-block d-none">
 		<div class="container">
 			<button id="indicator1" class="indicator active" data-slide="1">
 				<div class="indicator-img" style="background-image: url(/images/slide1.jpg);"></div>
@@ -83,7 +83,7 @@
 				<h2 class="h1">Vybrané z&nbsp;aktuálnej ponuky</h2>
 			</div>
 			<div class="col-md-4 text-md-right">
-				<a href="/ponuka" class="underline mt-4">Zobraziť všetky</a>
+				<a href="/ponuka" class="underline mt-5 d-block right">Zobraziť všetky</a>
 			</div>
 		</div>
 		<div class="row ponuka pt-5">
@@ -95,9 +95,9 @@
 				<?php include "./components/ponuka.php" ?>
 				<?php include "./components/ponuka.php" ?>
 		</div>
-		<div class="row text-center d-md-flex d-none">
-			<div class="col-12">
-				<a href="/ponuka" class="underline">Zobraziť všetky</a>
+		<div class="row text-center">
+			<div class="col-12 ">
+				<a href="/ponuka" class="underline d-md-block d-none">Zobraziť všetky</a>
 			</div>
 		</div>
 	</div>
@@ -138,7 +138,7 @@
 		<div class="row">
 			<div class="col-md-4">
 				<h2 class="mb-4">Dlhoročné skúsenosti</h2>
-				<a href="" class="underline mb-md-0 mb-4">Viac o spoločnosti</a>
+				<a href="" class="underline mb-md-0 mb-4 left">Viac o spoločnosti</a>
 			</div>
 			<div class="col-md-8 px-md-0">
 				<div class="row numbers">
@@ -182,7 +182,7 @@
 	<div class="container py-md-6 py-5">
 		<div class="row">
 			<div class="col-md-4">
-				<h2>Povedali<br> o nás</h2>
+				<h2>Povedali<br clear="d-md-block d-none"> o nás</h2>
 			</div>
 			<div class="col-md-8">
 				<div class="referencies owl-carousel owl-theme">
