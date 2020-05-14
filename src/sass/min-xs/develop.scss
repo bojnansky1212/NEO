@@ -5,6 +5,10 @@
 		z-index: 11;
 		background-color: $black-mid;
 		min-height: 15rem;
+		display: flex;
+		.info{
+			margin:auto 0;
+		}
 	}
 	h2{
 		color: #fff;

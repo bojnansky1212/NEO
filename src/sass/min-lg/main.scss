@@ -1,3 +1,19 @@
 @media (min-width: map-get($grid-breakpoints, lg)) {
+	h1{
+		font-size: 60px;
+		line-height: 70px;
+	}
 
+	h2{
+		font-size: 45px;
+		line-height: 60px;
+		&.h1{
+			font-size: 60px;
+			line-height: 1.2;
+		}
+	}
+
+	h4{
+		font-size: 26px;
+	}
 }

@@ -1,17 +1,17 @@
 <footer>
-	<div class="container py-6">
+	<div class="container py-md-6 py-5">
 		<div class="row  text-center text-md-left">
 			<div class="col-md-7">
 				<h2 class="h1">
 					Sme otvorení novým možnostiam
 				</h2>
 			</div>
-			<div class="col-md-5 text-center text-right mt-6">
+			<div class="col-md-5 text-center text-right mt-md-6 mt-4">
 				<a href="" class="btn btn-white-transparent">
 					Kontaktujte nás
 				</a>
 			</div>
-			<div class="col-12 py-6">
+			<div class="col-12 py-md-6 py-4">
 				<hr class="footer-hr">
 				<div class="row">
 					<div class="col-md-3">
@@ -20,13 +20,13 @@
 					<div class="col-md-9">
 						<div class="sponsor-slider owl-carousel owl-theme">
 							<div class="item">
-								<img src="images/ismont.png" alt="ismont" class="mt-3">
+								<img src="images/ismont.png" alt="ismont">
 							</div>
 							<div class="item">
 								<img src="images/royaldom.png" alt="royaldom">
 							</div>
 							<div class="item">
-								<img src="images/stavmat.png" alt="stavmat" class="mt-5">
+								<img src="images/stavmat.png" alt="stavmat">
 							</div>
 						</div>
 					</div>

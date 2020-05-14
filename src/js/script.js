@@ -36,6 +36,26 @@ $('[data-slide]').click(function(event) {
 	$(".banner").trigger("to.owl.carousel", [id - 1, 1])
 });
 
+if ($(window).width() < 500) {
+	$('.ponuka').removeClass("row");
+	$('.ponuka').addClass("owl-carousel");
+	$('.ponuka').addClass("owl-theme");
+	$('.ponuka').owlCarousel({
+		loop:true,
+		nav:false,
+		dots:false,
+		autoplay:true,
+		autoplaySpeed:800,
+		autoplayTimeout:6000,
+		lazyLoad:true,
+		responsive:{
+			0:{
+				items:1
+			},
+		}
+})
+}
+
 $('.ponuka-detail').on('initialized.owl.carousel changed.owl.carousel', function(e) {
 		if (!e.namespace){
 			return;
@@ -49,6 +69,8 @@ $('.ponuka-detail').on('initialized.owl.carousel changed.owl.carousel', function
 		nav:true,
 		dots:false,
 		lazyLoad:true,
+		mouseDrag:false,
+		touchDrag:false,
 		navText: [`<i class="fa fa-chevron-left" aria-hidden="true"></i>`,
 		`<i class="fa fa-chevron-right" aria-hidden="true"></i>`],
 		responsive:{

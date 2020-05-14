@@ -7,13 +7,21 @@ footer {
 	}
 
 	.sponsor-slider {
-		.item img {
-			filter: grayscale(100%) invert(1) contrast(0.5);
+		.owl-item{
+			height: 10rem;
+		}
+		.item{
+			display: flex;
+			height: 100%;
+			img {
+				margin: auto;
+				filter: grayscale(100%) invert(1) contrast(0.5);
 
-			&:hover {
-				filter: grayscale(0);
-				transition: 0.3s;				
-			}
+				&:hover {
+					filter: grayscale(0);
+					transition: 0.3s;
+				}
+		}
 		}
 	}
 

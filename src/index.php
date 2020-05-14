@@ -47,7 +47,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="buttons d-md-block d-none">
+	<div class="buttons d-lg-block d-none">
 		<div class="container">
 			<button id="indicator1" class="indicator active" data-slide="1">
 				<div class="indicator-img" style="background-image: url(/images/slide1.jpg);"></div>
@@ -77,7 +77,7 @@
 	</div>
 </section>
 <section id="ponuka">
-	<div class="container py-6">
+	<div class="container py-md-6 py-5">
 		<div class="row">
 			<div class="col-md-8">
 				<h2 class="h1">Vybrané z&nbsp;aktuálnej ponuky</h2>
@@ -105,7 +105,7 @@
 <section id="develop">
 	<div class="container py-5">
 		<div class="row">
-			<div class="col-md-4 py-md-7 left order-md-1 order-2">
+			<div class="col-lg-4 left order-lg-1 order-2">
 				<div id="info1" class="info">
 					<h5>DEVELOPERSKÉ PROJEKTY</h5>
 					<h2 class="h1">Bytový dom Lilum 1</h2>
@@ -125,7 +125,7 @@
 					<a href="" class="btn btn-white-transparent">Zobraziť detail projektu</a>
 				</div>
 			</div>
-			<div class="col-md-8 py-md-6 py-4 order-md-2 order-1">
+			<div class="col-lg-8 py-lg-6 py-4 order-lg-2 order-1">
 				<div class="develop-slider owl-carousel owl-theme">
 					<?php include "./components/develop.php" ?>
 				</div>
