@@ -78,7 +78,9 @@ a,button{
 }
 
 a[data-lightbox] {
-	background-color: #000;
+	background-color: #000!important;
+	display: block;
+	
 	img {
 		opacity: 0.55;
 		transition: opacity .5s;

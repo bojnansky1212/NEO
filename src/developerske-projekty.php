@@ -12,56 +12,86 @@
 	</div>
 </section>
 <section id="develop-projects">
-	<div class="container py-6">
+	<div class="container py-5 py-md-6">
 		<div class="row">
-			<div class="col-12 py-5">
+			<div class="col-12 py-3 py-md-5">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 order-2 order-md-1">
 						<div id="project1" class="project pt-4">
-							<h2 class="h1">Vila Lužná</h2>
-							<p>2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span> Lužná</p>
-							<a href="" class="btn btn-white-transparent">Zobraziť detail projektu</a>
+							<h2 class="h1">
+								Vila Lužná</h2>
+							<p>
+								2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span> Lužná
+							</p>
+							<a href="" class="btn btn-white-transparent d-none d-md-block">
+								Zobraziť detail projektu
+							</a>
 						</div>
 					</div>
-					<div class="col-md-8 image-item image1">
-					</div>
-				</div>
-			</div>
-			<div class="col-12 py-5">
-				<div class="row">
-					<div class="col-md-8 image-item image2">
-					</div>
-					<div class="col-md-4">
-						<div id="project2" class="project pt-4 pl-md-5">
-							<h2 class="h1">Lilum</h2>
-							<p>2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span> Bratislava</p>
-							<a href="" class="btn btn-white-transparent">Zobraziť detail projektu</a>
+					<div class="col-md-8 order-1 order-md-2" >
+						<div class="image-item" style="background-image: url(/images/lilum1.png);">			
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-12 py-5">
+			<div class="col-12 py-3 py-md-5">
 				<div class="row">
+					<div class="col-md-8">
+						<div class="image-item" style="background-image: url(/images/lilum2.png);">			
+						</div>
+					</div>
 					<div class="col-md-4">
+						<div id="project2" class="project pt-4 pl-xl-5">
+							<h2 class="h1">
+								Lilum</h2>
+							<p>
+								2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span>Bratislava
+							</p>
+							<a href="" class="btn btn-white-transparent d-none d-md-block">
+								Zobraziť detail projektu
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 py-3 py-md-5">
+				<div class="row">
+					<div class="col-md-4 order-2 order-md-1">
 						<div id="project1" class="project pt-4">
-							<h2 class="h1">Štvorlístok</h2>
-							<p>2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span> Trnava</p>
-							<a href="" class="btn btn-white-transparent">Zobraziť detail projektu</a>
+							<h2 class="h1">
+								Štvorlístok
+							</h2>
+							<p>
+								2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span>Trnava
+							</p>
+							<a href="" class="btn btn-white-transparent d-none d-md-block">
+								Zobraziť detail projektu
+							</a>
 						</div>
 					</div>
-					<div class="col-md-8 image-item image3">
+					<div class="col-md-8 order-1 order-md-2">
+						<div class="image-item" style="background-image: url(/images/lilum1.png);">			
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-12 py-5">
+			<div class="col-12 py-3 py-md-5">
 				<div class="row">
-					<div class="col-md-8 image-item image4">
+					<div class="col-md-8">
+						<div class="image-item" style="background-image: url(/images/lilum2.png);">			
+						</div>
 					</div>
 					<div class="col-md-4">
-						<div id="project2" class="project pt-4 pl-md-5">
-							<h2 class="h1">Byty Miko</h2>
-							<p>2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span> Trnava</p>
-							<a href="" class="btn btn-white-transparent">Zobraziť detail projektu</a>
+						<div id="project2" class="project pt-4 pl-xl-5">
+							<h2 class="h1">
+								Byty Miko
+							</h2>
+							<p>
+								2018 <span class="hr mx-2"></span> Rodinné domy <span class="hr mx-2"></span>Trnava
+							</p>
+							<a href="" class="btn btn-white-transparent d-none d-md-block">
+								Zobraziť detail projektu
+							</a>
 						</div>
 					</div>
 				</div>
@@ -70,7 +100,7 @@
 	</div>
 </section>
 <section id="newest-blog">
-	<div class="container py-6">
+	<div class="container py-5 py-md-6">
 		<div class="row">
 			<div class="col-8">
 				<h2>Najnovšie z blogu</h2>

@@ -19,3 +19,5 @@ $('.sponsor-slider').owlCarousel({
 })
 
 $('#flat-number').select2();
+
+$('#clip').css("background-size","120%");
