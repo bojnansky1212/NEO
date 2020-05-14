@@ -50,7 +50,7 @@
 				  	<div class="card">
 					    <div class="card-header" id="headingOne">
 					      	<h3 class="mb-0">
-					        	<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Poloha <span class="plus">+</span>
+					        	<button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Poloha <span class="plus">+</span>
 					        	</button>
 							</h3>
 					    </div>
@@ -65,7 +65,7 @@
 				  	<div class="card">
 					    <div class="card-header" id="headingTwo">
 					      	<h3 class="mb-0">
-					        	<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">Vyhoda 02 <span class="plus">+</span>
+					        	<button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">Vyhoda 02 <span class="plus">+</span>
 					       		</button>
 					       	</h3>
 					    </div>
@@ -80,7 +80,7 @@
 				  	<div class="card">
 					    <div class="card-header" id="headingThree">
 					      	<h3 class="mb-0">
-					        	<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Vyhoda 03 <span class="plus">+</span>
+					        	<button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Vyhoda 03 <span class="plus">+</span>
 					        	</button>
 					        </h3>
 					    </div>
@@ -95,7 +95,7 @@
 				  	<div class="card">
 					    <div class="card-header" id="headingFour">
 					      	<h3 class="mb-0">
-					        	<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Vyhoda 04 <span class="plus">+</span>
+					        	<button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Vyhoda 04 <span class="plus">+</span>
 					        	</button>
 							</h3>
 					    </div>
@@ -224,12 +224,65 @@
 </section>
 <section id="contact">
 	<div class="container py-6">
-		<div class="row">
-			<div class="col-8">
-				<h2>V prípade prípade záujmu nám pošlite vaše kontaktné údaje.<br>Náš maklér vás bude kontaktovať</h2>
+		<div class="row text-center">
+			<div class="col-8 m-md-auto">
+				<h2 class="mb-5">V prípade prípade záujmu nám pošlite vaše kontaktné údaje.<br>Náš maklér vás bude kontaktovať</h2>
+			</div>
+			<div class="col-md-6 m-md-auto">
+				<form>
+					<div class="row">
+						<div class="col-12">
+							<select id="flat-number"
+							data-placeholder="Byt č."		name="flat-number" class="select2">
+								<option value=""></option>
+								<option value="A1-03-06-05">A1-03-06-05
+								</option>
+								<option value="A1-03-06-05">A1-03-06-05
+								</option>
+								<option value="A1-03-06-05">A1-03-06-05
+								</option>
+								<option value="A1-03-06-05">A1-03-06-05
+								</option>
+								<option value="A1-03-06-05">A1-03-06-05
+								</option>
+								<option value="A1-03-06-05">A1-03-06-05
+								</option>
+							</select2>
+						</div>
+						<div class="col-12">
+							<input class="formular" type="text" name="meno" placeholder="Meno a priezvisko">
+						</div>
+						<div class="col-12">
+							<input class="formular" type="text" name="mail" placeholder="Email">
+						</div>
+						<div class="col-12">
+							<input class="formular" type="text" name="mail" placeholder="Telefónn">
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="col-12">
+							<button class="btn btn-black w-100 mb-4" name="submit" value="Odoslať kontakt">Odoslať kontakt</button>
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
 </section>
-
+<section id="windows">
+	<div class="container">
+		<div class="row no-gutters">
+			<div class="col-md-6 window">
+				<div class="bg d-flex h-100" style="background-image: url(/images/miko.png);">
+					<h3 class="m-auto">Bytový dom Lilum</h3>
+				</div>
+			</div>
+			<div class="col-md-6 window">
+				<div class="bg d-flex h-100" style="background-image: url(/images/lilum1.png);">
+					<h3 class="m-auto">Vily lužná</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <?php include "./components/footer.php" ?>

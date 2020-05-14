@@ -1,0 +1,49 @@
+#contact {
+	.select2 {
+	    width: 100%;
+	    font-size: 26px;
+	    border: 0;
+	    border-bottom: 1px solid $gray-light;
+	    margin-bottom: 1.5rem;
+	    padding-bottom: 1rem;
+
+	}
+
+	.select2-selection__rendered {
+		text-align: left;
+		padding-left: 0;
+	}
+
+    .select2-container--default {
+
+    	.select2-selection--single {
+    		outline: none;
+    		border: none; 
+    	}
+
+    }
+
+	input {
+		width: 100%;
+		font-size: 26px;
+		color: $gray!important;
+		border: 0;
+	    border-bottom: 1px solid $gray-light;
+	    margin-bottom: 1.5rem;
+	    padding-bottom: 1rem;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		color: $gray-light!important;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+		color:  $gray-light!important;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+		color:  $gray-light!important;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+		color:  $gray-light!important;
+	}
+
+}

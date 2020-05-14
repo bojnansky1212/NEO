@@ -17,3 +17,5 @@ $('.sponsor-slider').owlCarousel({
 		}
 	}
 })
+
+$('#flat-number').select2();

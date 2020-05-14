@@ -1,0 +1,14 @@
+#windows {
+	.window {
+		background-color: #000;
+		height: 20rem;
+
+		.bg {
+			opacity: 0.55;
+			background-repeat: no-repeat;
+			background-position: centered;
+			background-size: cover;
+			color: #fff;
+		}
+	}
+}

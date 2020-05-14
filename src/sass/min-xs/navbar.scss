@@ -13,6 +13,14 @@
 	&.scrolled{
 		background: $black-mid;
 	}
+	input{
+		width: 100%;
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid $gray;
+		color: $gray;
+		padding: 15.5px;
+	}
 }
 
 
@@ -29,14 +37,6 @@ h1{
 	}
 }
 
-input{
-	width: 100%;
-	background-color: transparent;
-	border: none;
-	border-bottom: 1px solid $gray;
-	color: $gray;
-	padding: 15.5px;
-}
 
 .wrapper{
 	position: fixed;

@@ -82,3 +82,7 @@ a[data-lightbox] {
 .w-100{
 	height: auto;
 }
+
+input, button, a, select, textarea {
+	outline: none;
+}
