@@ -34,9 +34,9 @@
 				<hr class="footer-hr">
 			</div>
 			<div class="col-12">
-				<img src="images/neo_logo.svg" alt="logo" class="logo mt-4">
+				<a href="/"><?php echo file_get_contents("images/neo_logo.svg"); ?></a>
 			</div>
-			<div class="col-md-6">
+			<div class="col-6">
 				<div class="row">
 					<div class="col-12 py-5">
 						<p>Mikoviniho 9402/26</p>
@@ -46,12 +46,12 @@
 						<p>0911 321 474</p>
 						<p>0911 321 474</p>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 mt-md-0 mt-5">
 						<p>neoreal@neoreal.sk</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-6">
 				<div class="row py-5">
 					<div class="col-md-6">
 						<ul>
