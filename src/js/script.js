@@ -32,6 +32,8 @@ owl.on('changed.owl.carousel',function(property){
 	$(id).addClass("active");
 });
 
+
+
 $('[data-slide]').click(function(event) {
 	let id = $(this).data('slide');
 	id = parseInt(id);
@@ -213,3 +215,21 @@ anime({
 	direction: 'alternate',
 	loop: true
 });
+
+$(document).ready(function(){
+	setTimeout(function(){
+		anime.timeline({loop: false})
+	  .add({
+		    targets: '#logo',
+		    opacity: 0,
+		    scale: 4,
+		    duration: 1000,
+		    easing: "easeInExpo",
+		    delay: 500
+		  })
+		setTimeout(function(){
+			$("#pre-loader").css('box-shadow', 'inset 0 0 300px -300px #1D1D1D');
+		},250)
+	},500);
+
+})
