@@ -56,22 +56,25 @@
 					<p class="m-auto">
 						O spoločnosti
 					</p>
+					<span class="number">01</span>
 				</div>
 			</button>
 			<button id="indicator2" class="indicator" data-slide="2">
 				<div class="indicator-img" style="background-image: url(/images/slide2.jpg);"></div>
-				<div class="center">
+					<div class="center">
 					<p class="m-auto">
 						Developerské projekty
 					</p>
+					<span class="number">02</span>
 				</div>
-			</div>
+			</button>
 			<button id="indicator3" class="indicator" data-slide="3">
 				<div class="indicator-img" style="background-image: url(/images/slide3.jpg);"></div>
 				<div class="center">
 					<p class="m-auto">
 						Nehnuteľnosti
 					</p>
+					<span class="number">03</span>
 				</div>
 			</button>
 		</div>

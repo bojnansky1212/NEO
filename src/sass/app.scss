@@ -10,6 +10,13 @@
 @import '~select2/src/scss/theme/default/layout';
 @import 'fonts';
 
+@import '~animate.css/source/fading_entrances/fadeInUp.css';
+@import '~animate.css/source/fading_entrances/fadeInDown.css';
+@import '~animate.css/source/fading_entrances/fadeInTopLeft.css';
+@import '~animate.css/source/fading_entrances/fadeInTopRight.css';
+@import '~animate.css/source/fading_entrances/fadeInBottomLeft.css';
+@import '~animate.css/source/fading_entrances/fadeInBottomRight.css';
+
 @import 'buttons';
 @import 'min-xs/app';
 @import 'min-sm/app';

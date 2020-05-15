@@ -55,6 +55,8 @@
 			color: #fff;
 			top: 20px;
 			position: relative;
+			font-family: 'Gilroy-Bold';
+			letter-spacing: 1.2px;
 			transition: 0.6s ease;
 			float: left;
 			.center{
@@ -68,6 +70,7 @@
 				top: 150px;
 				background-size: cover;
 				transition: 0.6s ease;
+				z-index: 2;
 			}
 			&:hover,&.active{
 				height: 150px;
@@ -77,5 +80,14 @@
 				}
 			}
 		}
+	}
+	.number{
+		font-size: 65px;
+		color: #0A0A0A;
+		font-family: 'Gilroy-Bold';
+		position: absolute;
+		bottom: -2.7rem;
+		left: 1rem;
+		z-index: 1;
 	}
 }

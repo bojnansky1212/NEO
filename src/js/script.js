@@ -174,9 +174,7 @@ $('.referencies').on('initialized.owl.carousel changed.owl.carousel', function(e
 import anime from 'animejs/lib/anime.es.js';
 
 
-if($(".numbers").length){
-		$(window).scroll(testScroll);
-	}
+
 var viewed = false;
 
 function isScrolledIntoView(elem) {
@@ -219,17 +217,39 @@ anime({
 $(document).ready(function(){
 	setTimeout(function(){
 		anime.timeline({loop: false})
-	  .add({
-		    targets: '#logo',
-		    opacity: 0,
-		    scale: 4,
-		    duration: 1000,
-		    easing: "easeInExpo",
-		    delay: 500
-		  })
+		.add({
+			targets: '#logo',
+			opacity: 0,
+			scale: 4,
+			duration: 1000,
+			easing: "easeInExpo",
+			delay: 500
+		})
 		setTimeout(function(){
 			$("#pre-loader").css('box-shadow', 'inset 0 0 300px -300px #1D1D1D');
-		},250)
+			window.scrollTo(0,0);
+			if($(".numbers").length){
+				$(window).scroll(testScroll);
+			}
+			$(".animPonuka").addClass("aniview");
+			let elements = document.getElementsByClassName("animPonuka")
+			console.log(elements[0]);
+			elements[0].setAttribute('data-av-animation',"fadeInTopLeft");
+			elements[1].setAttribute('data-av-animation',"fadeInDown");
+			elements[2].setAttribute('data-av-animation',"fadeInTopRight");
+			elements[3].setAttribute('data-av-animation',"fadeInBottomLeft");
+			elements[4].setAttribute('data-av-animation',"fadeInUp");
+			elements[5].setAttribute('data-av-animation',"fadeInBottomRight");
+
+			if($(window).width() > 500){
+				$('.aniview').AniView();
+			}
+		},250);
+		setTimeout(function(){
+				$("#pre-loader").css('opacity', '0');
+				$("#pre-loader").css('pointer-events', 'none');
+		},1600)
 	},500);
 
 })
+
