@@ -3,6 +3,9 @@
 		font-size: 20px;
 	}
 	.ponuka-detail,.blog{
+		.item{
+			z-index: -1;
+		}
 		.obrazok{
 			width: 100%;
 			background-position: center;
@@ -49,6 +52,6 @@
 		padding-top: 20px;
 		position: relative;
 		top: -3rem;
-		z-index: 10;
+		z-index: 9999999999;
 	}
 }

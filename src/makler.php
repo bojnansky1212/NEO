@@ -2,12 +2,12 @@
 <?php include "./components/navbar.php" ?>
 
 <section id="makler">
-	<div class="container pt-md-7 pt-6">
+	<div class="container pt-lg-7 pt-6">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-lg-3 col-md-4">
 				<img class="makler" src="images/typek.png" alt="">
 			</div>
-			<div class="col-md-5">
+			<div class="col-lg-5 col-md-8">
 				<div class="d-flex h-100">
 					<div class="m-auto text-md-left text-center">
 						<h1>Jakub Feranec</h1>
@@ -16,10 +16,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-lg-4">
 				<div class="d-flex h-100">
 					<div class="m-auto">
-						<p class="text-md-left text-center py-md-0 py-4">Dobrý deň, <br>som nemenovanú realitnú kanceláriu pre predaj bytu na Zámockej ulici. Bohužiaľ, ani po 10 mesačnom čakaní a ani po znížení ceny sa nepodarilo nájsť kupcu. Obrátila som sa preto na Arvin & Benet, ktorým sa za necelé 3 týždne podarilo nájsť kupcu. Obrátila som sa preto na Arvin & Benet ...</p>
+						<p class="text-lg-left text-center py-lg-0 py-4">Dobrý deň, <br>som nemenovanú realitnú kanceláriu pre predaj bytu na Zámockej ulici. Bohužiaľ, ani po 10 mesačnom čakaní a ani po znížení ceny sa nepodarilo nájsť kupcu. Obrátila som sa preto na Arvin & Benet, ktorým sa za necelé 3 týždne podarilo nájsť kupcu. Obrátila som sa preto na Arvin & Benet ...</p>
 					</div>
 				</div>
 			</div>
@@ -56,7 +56,7 @@
 				<a href="/ponuka" class="underline mt-5 d-block right">Zobraziť všetky</a>
 			</div>
 		</div>
-		<div class="row ponuka pt-md-5 pt-4">
+		<div class="row ponuka pt-md-5 pt-4 blog">
 				<?php include "./components/blog-part.php" ?>
 				<?php include "./components/blog-part.php" ?>
 				<?php include "./components/blog-part.php" ?>

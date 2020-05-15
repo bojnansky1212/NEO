@@ -99,20 +99,20 @@
 		</div>
 	</div>
 </section>
-<section id="newest-blog">
-	<div class="container py-5 py-md-6">
+<section id="blog-interest">
+	<div class="container py-md-6 py-4">
 		<div class="row">
-			<div class="col-8">
+			<div class="col-md-8">
 				<h2>Najnovšie z blogu</h2>
 			</div>
-			<div class="col-4 text-right">
-				<a href="/ponuka" class="underline mt-4">Zobraziť všetky</a>
+			<div class="col-md-4 text-md-right">
+				<a href="/ponuka" class="underline mt-5 d-block right">Zobraziť všetky</a>
 			</div>
 		</div>
-		<div class="row ponuka pt-5">
-			<?php include "./components/ponuka.php" ?>
-			<?php include "./components/ponuka.php" ?>
-			<?php include "./components/ponuka.php" ?>
+		<div class="row ponuka pt-md-5 pt-4 blog">
+				<?php include "./components/blog-part.php" ?>
+				<?php include "./components/blog-part.php" ?>
+				<?php include "./components/blog-part.php" ?>
 		</div>
 	</div>
 </section>
