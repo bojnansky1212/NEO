@@ -39,6 +39,9 @@ $('.staff-slider').owlCarousel({
 			items:3
 		},
 		992:{
+			items:5
+		},
+		1440:{
 			items:6
 		}
 	}
