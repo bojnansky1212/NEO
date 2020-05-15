@@ -21,3 +21,25 @@ $('.sponsor-slider').owlCarousel({
 $('#flat-number').select2();
 
 $('#clip').css("background-size","120%");
+
+$('.staff-slider').owlCarousel({
+	loop:true,
+	animateOut: 'fadeOut',
+	animateIn: 'fadeIn',
+	nav:false,
+	dots:false,
+	autoplay:true,
+	autoplaySpeed:800,
+	autoplayTimeout:5000,
+	responsive:{
+		0:{
+			items:2
+		},
+		768:{
+			items:3
+		},
+		992:{
+			items:6
+		}
+	}
+})

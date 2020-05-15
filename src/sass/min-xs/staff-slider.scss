@@ -1,0 +1,61 @@
+#staff-slider {
+	background: linear-gradient(to top, $gray-light 33.5%, transparent 0);
+	
+	.staff-slider {
+
+		.owl-stage-outer {
+			overflow: visible;  
+		}
+
+		.owl-item {
+			opacity: 0;
+			transition: opacity .5s;
+
+
+			&.active {
+				opacity: 1;
+			}
+
+			.foto {
+				height: 24.4rem;
+				position: relative;
+
+				.person-image {
+					position: absolute;
+				    top: 0;
+				    left: -25px;
+				    width: calc(100% + 50px)!important;
+				}
+			}
+
+			.person {
+				position: relative; 
+				height: 7rem;
+			}
+
+			.all-link {
+				opacity: 0;
+				pointer-events: none;
+			}
+
+			&:hover {
+				.all-link {
+					transition: 1s;
+					opacity: 1;
+					pointer-events: auto;
+				}
+
+				.person::before {
+					transition: opacity 1s;
+					content: "";
+					position: absolute;
+					top: -13px;
+					width: 1rem;
+					height: 1rem;
+					transform: rotate(45deg);
+					background-color: $gray-light;
+				}
+			}
+		}
+	}
+}

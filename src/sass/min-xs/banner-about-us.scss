@@ -1,0 +1,48 @@
+#banner-about-us {
+	background-color: #000;
+	height: 65vh;
+
+	.headline-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		vertical-align: middle;
+		position: absolute;
+		width: 100vw;
+		height: 65vh;
+		left: 0;
+		top: 0;
+	}
+
+	#clip{
+		background: url(/images/slide1.png);
+		background-attachment: fixed;
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+
+		font-size: 56px;
+		transition: background-size 2.5s ease;
+		line-height: 1.05;
+		text-align: center;
+		margin: auto;
+	}
+
+	.overlay {
+		opacity: 0.55;
+		background-position: 100% 14%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: absolute;
+		width: 100vw;
+		height: 65vh;
+	}
+	
+	.title {
+		margin-top: 20vh;
+
+		.background-font {
+			font-size: 140px;
+			line-height: 1.3;
+			letter-spacing: 18px;
+		}
+	}
+}

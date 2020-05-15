@@ -20,10 +20,10 @@
 				</p>
 				<h2 class="h1 mb-4">Byty Miko</h2>
 				<h4 class="mb-4">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores dolor deleniti odit voluptates illum officia adipisci id nesciunt in blanditiis?
+					Bytový komplex MIKO je situovaný na predmestí Linčianska, kúsok od mestskej časti Modranka. Predstavuje všetko, čo možno očakávať od komfortného bývania na úrovni.
 				</h4>
 				<h4 class="mb-4">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut maiores dolor deleniti odit voluptates illum officia adipisci id nesciunt in blanditiis, a consequuntur iusto voluptas voluptatibus dolorem commodi repellendus? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					Kvalitná a moderná stavba, nízke náklady na bývanie, obchody a ďalšie dôležité miesta v blízkom i širšom okolí, pokojná lokalita a zároveň výborné napojenie na okolitý svet. A navyše – až o 25% výhodnejšia cena ako pri konkurenčných projektoch. To sú hlavné charakteristiky projektu.
 				</h4>
 				<a href="" class="btn btn-white-transparent mt-2 mb-5 mb-md-0">Bytymiko.sk</a>
 			</div>

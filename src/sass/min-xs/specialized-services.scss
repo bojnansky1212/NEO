@@ -1,0 +1,40 @@
+#specialized-services {
+	background-color: $gray-light;
+
+	#accordion {
+		.card {
+			background-color: transparent;
+			border-radius: 0px; 
+			border: none;
+			border-bottom: 1px solid $gray-mid;
+
+			button {
+				font-size: 26px;
+				line-height: 40px;
+				letter-spacing: 1.5px!important;
+				width: 100%;
+				color: #000;
+				padding-left: 0;
+				padding-right: 0;
+				background-color: transparent;
+				border: none;
+				text-align: left;
+
+				.plus {
+					float: right;
+					font-size: 40px;
+				}
+			}			
+
+			.card-header {
+				background-color: transparent;
+				border: none;
+				padding: 2.5rem 0 2.5rem 0;
+			}
+
+			&:first-of-type {
+				border-top: 1px solid $gray-mid;
+			} 
+		}
+	}
+}

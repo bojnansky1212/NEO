@@ -1,6 +1,6 @@
 <footer>
 	<div class="container py-md-6 py-5">
-		<div class="row  text-center text-md-left">
+		<div class="row text-md-left">
 			<div class="col-md-7">
 				<h2 class="h1">
 					Sme otvorení novým možnostiam
@@ -43,8 +43,14 @@
 						<p>917 01 Trnava</p>
 					</div>
 					<div class="col-md-6">
-						<p>0911 321 474</p>
-						<p>0911 321 474</p>
+						<ul>
+							<li>
+								<a href="tel:123-456-7890">+421 123-456-7890</a>
+							</li>
+							<li>
+								<a href="tel:123-456-7890">+421 123-456-7890</a>
+							</li>
+						</ul>				
 					</div>
 					<div class="col-md-6 mt-md-0 mt-5">
 						<p>neoreal@neoreal.sk</p>
