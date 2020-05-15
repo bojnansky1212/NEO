@@ -81,7 +81,7 @@
 	</div>
 </section>
 <section id="ponuka">
-	<div class="container py-md-6 py-5">
+	<div class="container py-md-6 py-4">
 		<div class="row">
 			<div class="col-md-8">
 				<h2 class="h1">Vybrané z&nbsp;aktuálnej ponuky</h2>
@@ -90,7 +90,7 @@
 				<a href="/ponuka" class="underline mt-5 d-block right">Zobraziť všetky</a>
 			</div>
 		</div>
-		<div class="row ponuka pt-5">
+		<div class="row ponuka pt-md-5 pt-4">
 				<?php include "./components/ponuka.php" ?>
 				<?php include "./components/ponuka.php" ?>
 				<?php include "./components/ponuka.php" ?>

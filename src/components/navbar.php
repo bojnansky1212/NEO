@@ -18,11 +18,11 @@
 <div class="wrapper load-hide">
 	<nav id="sidebar" class="active px-md-6 px-4 d-flex">
 		<div class="m-auto">
-			<h1>
+			<h2 class="h1">
 				<span>Developerské projekty</span> <br>
 				<span class="disabled">Nehnuteľnosti</span> <br>
 				<span class="disabled">O spoločnosti</span>
-			</h1>
+			</h2>
 			<div class="row pt-5">
 				<div class="col-6">
 					<a href="/">Domov</a>

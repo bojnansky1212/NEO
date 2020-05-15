@@ -1,0 +1,24 @@
+#makler{
+	background-color: $black-mid;
+	min-height: 100vh;
+
+	h1{
+		color: #fff;
+	}
+
+	a{
+		color: #fff;
+		font-size: 26px;
+		display: block;
+		margin-bottom: .5rem;
+	}
+	p{
+		color: #fff;
+	}
+
+	.makler{
+		width: 40%;
+		margin: auto;
+		display: block;
+	}
+}

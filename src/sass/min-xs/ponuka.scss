@@ -1,13 +1,14 @@
-#ponuka, #newest-blog{
+#ponuka, #newest-blog, #blog-interest{
 	h4{
 		font-size: 20px;
 	}
-	.ponuka-detail{
+	.ponuka-detail,.blog{
 		.obrazok{
 			width: 100%;
 			background-position: center;
 			background-size: cover;
 			padding-top: 65%;
+			position: relative;
 			img{
 				display: block;
 				width: 100%;
