@@ -1,3 +1,9 @@
 #blog{
 	background-color: $black-mid;
+	p,h1{
+		color: #fff;
+	}
+	.btn{
+		padding: 8px 20px;
+	}
 }

@@ -52,6 +52,12 @@
 		padding-top: 20px;
 		position: relative;
 		top: -3rem;
-		z-index: 9999999999;
+		z-index: 10;
+	}
+	.image-item {
+		background-position: center;
+		background-size: cover;
+		width: 100%;
+		padding-top: 60%;
 	}
 }

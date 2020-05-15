@@ -1,4 +1,4 @@
-<div class="col-lg-4 col-md-6">
+<div class="col-lg-4">
 	<div class="aniview" data-av-animation="fadeIn">
 		<div class="obrazok item">
 			<img src="/images/1.png" alt="">
