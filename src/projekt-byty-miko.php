@@ -257,7 +257,7 @@
 							<input class="formular" type="text" name="mail" placeholder="Email">
 						</div>
 						<div class="col-12">
-							<input class="formular" type="text" name="mail" placeholder="Telefónn">
+							<input class="formular" type="text" name="mail" placeholder="Telefón">
 						</div>
 					</div>
 					<div class="row text-center">

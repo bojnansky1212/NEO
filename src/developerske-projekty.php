@@ -15,9 +15,9 @@
 	<div class="container py-5 py-md-6">
 		<div class="row">
 			<div class="col-12 py-3 py-md-5">
-				<div class="row">
-					<div class="col-md-4 order-2 order-md-1">
-						<div id="project1" class="project pt-4">
+				<div class="row h-100">
+					<div class="col-md-4 order-2 order-md-1 d-flex h-100">
+						<div id="project1" class="project m-auto">
 							<h2 class="h1">
 								Vila Lužná</h2>
 							<p>
@@ -35,13 +35,13 @@
 				</div>
 			</div>
 			<div class="col-12 py-3 py-md-5">
-				<div class="row">
+				<div class="row h-100">
 					<div class="col-md-8">
 						<div class="image-item" style="background-image: url(/images/lilum2.png);">			
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div id="project2" class="project pt-4 pl-xl-5">
+					<div class="col-md-4 d-flex h-100">
+						<div id="project2" class="project pl-xl-5 m-auto">
 							<h2 class="h1">
 								Lilum</h2>
 							<p>
@@ -55,9 +55,9 @@
 				</div>
 			</div>
 			<div class="col-12 py-3 py-md-5">
-				<div class="row">
-					<div class="col-md-4 order-2 order-md-1">
-						<div id="project1" class="project pt-4">
+				<div class="row h-100">
+					<div class="col-md-4 order-2 order-md-1 d-flex h-100">
+						<div id="project1" class="project m-auto">
 							<h2 class="h1">
 								Štvorlístok
 							</h2>
@@ -76,13 +76,13 @@
 				</div>
 			</div>
 			<div class="col-12 py-3 py-md-5">
-				<div class="row">
+				<div class="row h-100">
 					<div class="col-md-8">
 						<div class="image-item" style="background-image: url(/images/lilum2.png);">			
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div id="project2" class="project pt-4 pl-xl-5">
+					<div class="col-md-4 d-flex h-100">
+						<div id="project2" class="project pl-xl-5 m-auto">
 							<h2 class="h1">
 								Byty Miko
 							</h2>
@@ -99,20 +99,20 @@
 		</div>
 	</div>
 </section>
-<section id="blog-interest">
-	<div class="container py-md-6 py-4">
+<section id="newest-blog">
+	<div class="container py-5 py-md-6">
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-8">
 				<h2>Najnovšie z blogu</h2>
 			</div>
-			<div class="col-md-4 text-md-right">
-				<a href="/ponuka" class="underline mt-5 d-block right">Zobraziť všetky</a>
+			<div class="col-4 text-right">
+				<a href="/ponuka" class="underline mt-4">Zobraziť všetky</a>
 			</div>
 		</div>
-		<div class="row ponuka pt-md-5 pt-4 blog">
-				<?php include "./components/blog-part.php" ?>
-				<?php include "./components/blog-part.php" ?>
-				<?php include "./components/blog-part.php" ?>
+		<div class="row ponuka pt-5">
+			<?php include "./components/ponuka.php" ?>
+			<?php include "./components/ponuka.php" ?>
+			<?php include "./components/ponuka.php" ?>
 		</div>
 	</div>
 </section>

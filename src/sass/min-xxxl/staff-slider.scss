@@ -1,0 +1,19 @@
+@media (min-width: map-get($grid-breakpoints, xxxl)) {
+	#staff-slider {
+		background: linear-gradient(to top, $gray-light 21.3%, transparent 0);
+		
+		.staff-slider {
+			.owl-item {
+				.foto {
+					height: 34rem;
+				}
+
+				&:hover {
+					.person::before {
+						top: -22px;
+					}
+				}
+			}
+		}
+	}
+}

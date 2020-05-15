@@ -144,7 +144,7 @@
 	</div>
 </section>
 <section id="specialized-services">
-	<div class="container py-4 py-xl-6">
+	<div class="container py-4 py-xl-5 py-xxxl-6">
 		<div class="row text-left mt-lg-5">
 			<div class="col-md-5">
 				<h2 class="mb-4 mb-md-0">Služy, na ktoré sa špecializujeme</h2>
