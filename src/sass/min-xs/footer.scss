@@ -18,7 +18,7 @@ footer {
 				filter: grayscale(100%) invert(1) contrast(0.5);
 
 				&:hover {
-					filter: grayscale(0);
+					filter: grayscale(0%);
 					transition: 0.3s;
 				}
 		}

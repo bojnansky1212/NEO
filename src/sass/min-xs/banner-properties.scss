@@ -1,0 +1,65 @@
+#banner-properties {
+	height: 100vh;
+	background-color: #000;
+
+	h1 {
+		color: #fff;
+	}
+
+	.filtration {
+		background-color: #fff;
+
+		.border-style {
+			border-bottom: 1px solid $gray-light;
+		}
+
+		select {
+		    width: 100%;
+		    font-size: 26px;
+		    border: 0;
+		}
+
+		.select2-selection__rendered {
+			font-size: 26px;
+			text-align: left;
+			padding-left: 0;
+		}
+
+	    .select2-container--default {
+
+	    	.select2-selection--single {
+	    		outline: none;
+	    		border: none;
+
+	    		.select2-selection__placeholder {
+	    			color: $gray-light;
+	    		}
+	    	}
+	    }
+		
+		.search {
+			flex: 0 0 100%;
+
+			button {
+				height: 7rem;
+			    width: 100%;
+			    border: none;
+				background-color: $black-mid;
+
+				i {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	.overlay {
+		opacity: 0.55;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+	}
+}

@@ -21,44 +21,4 @@
 		}
 	}
 
-	.pagination {
-		a {
-			width: 2.5rem;
-			height: 0;
-			color: $black-mid;
-		}
-		
-		i {
-			width: 2.5rem;
-			height: 2.5rem;
-			text-align: center;
-			background-color: $black-mid;
-			color: #fff;
-			padding-top: 12px;
-		}
-
-		.current {
-			width: 2.5rem;
-			height: 2.5rem;
-			text-align: center;
-			padding-top: 7px;
-			border: 1px solid $black-mid;
-		}  
-
-		.simple {
-			width: 2.5rem;
-			height: 2.5rem;
-			text-align: center;
-			padding-top: 7px;
-			border: 1px solid $gray-mid;
-		}
-
-		span {
-			color: $black-mid;
-			width: 2.5rem;
-			height: 2.5rem;
-			padding-top: 5px;
-			text-align: center;
-		} 
-	}
 }

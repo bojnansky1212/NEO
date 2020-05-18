@@ -1,0 +1,56 @@
+@media (min-width: map-get($grid-breakpoints, md)) {	
+	#banner-properties {
+		height: 65vh;
+		background-color: #000;
+
+		.filtration {
+			.border-style {
+				border-right: 1px solid $gray-light;
+				border-bottom: none;
+			}
+			
+			select {
+			    width: 100%;
+			    font-size: 26px;
+			    border: 0;
+			}
+
+			.select2-selection__rendered {
+				font-size: 26px;
+				text-align: left;
+				padding-left: 0;
+			}
+
+		    .select2-container--default {
+
+		    	.select2-selection--single {
+		    		outline: none;
+		    		border: none;
+
+		    		.select2-selection__placeholder {
+		    			color: $gray-light;
+		    		}
+		    	}
+		    }
+			
+			.search {
+				flex: 0 0 7rem;
+
+				button {
+					height: 7rem;
+				    width: 100%;
+				    border: none;
+					background-color: $black-mid;
+
+					i {
+						color: #fff;
+					}
+				}
+			}
+		}
+
+		.overlay {
+			height: 65vh;
+		}
+	}
+}

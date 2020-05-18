@@ -1,22 +1,7 @@
 @media (min-width: map-get($grid-breakpoints, lg)) {
 	#banner-about-us {
-		height: 65vh;
-
-		.headline-wrapper {
-			width: 100vw;
-			height: 65vh;
-		}
-
 		#clip{
 			font-size: 150px;
-		    line-height: 1.05;
-		    background-size: 250%;
-		}
-
-		.overlay {
-			background-position: 100% 14%;
-			width: 100vw;
-			height: 65vh;
 		}
 	}
 }

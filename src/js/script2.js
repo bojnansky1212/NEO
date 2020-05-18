@@ -19,8 +19,13 @@ $('.sponsor-slider').owlCarousel({
 })
 
 $('#flat-number').select2();
+$('#contact-select').select2();
+$('#filter-sales').select2();
+$('#filter-location').select2();
+$('#filter-price').select2();
+$('#filter-date').select2();
 
-$('#clip').css("background-size","120%");
+$('#clip').css("background-size","70%");
 
 $('.staff-slider').owlCarousel({
 	loop:true,

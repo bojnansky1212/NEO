@@ -66,4 +66,35 @@
 		width: 100%;
 		padding-top: 60%;
 	}
+
+	select {
+	    width: 39%;
+	    font-size: 16px;
+	    font-family: 'Gilroy-Bold'!important;
+	    border: 0;
+	}
+
+	.select2-selection__rendered {
+		font-size: 16px;
+		text-align: left;
+		font-family: 'Gilroy-Bold'!important;
+		padding-left: 0;
+	}
+
+    .select2-container--default {
+
+    	.select2-selection--single {
+    		outline: none;
+    		border: none;
+
+    		.select2-selection__placeholder {
+    			color: $gray-light;
+    		}
+    	}
+    }
+
+    .gray-light {
+    	color: $gray-light;
+    }
+
 }
