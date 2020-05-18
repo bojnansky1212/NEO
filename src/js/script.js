@@ -256,12 +256,14 @@ $(document).ready(function(){
 		}
 		$(".animPonuka").addClass("aniview");
 		let elements = document.getElementsByClassName("animPonuka");
-		elements[0].setAttribute('data-av-animation',"fadeInTopLeft");
-		elements[1].setAttribute('data-av-animation',"fadeInDown");
-		elements[2].setAttribute('data-av-animation',"fadeInTopRight");
-		elements[3].setAttribute('data-av-animation',"fadeInBottomLeft");
-		elements[4].setAttribute('data-av-animation',"fadeInUp");
-		elements[5].setAttribute('data-av-animation',"fadeInBottomRight");
+		if(elements.length != 0){
+			elements[0].setAttribute('data-av-animation',"fadeInTopLeft");
+			elements[1].setAttribute('data-av-animation',"fadeInDown");
+			elements[2].setAttribute('data-av-animation',"fadeInTopRight");
+			elements[3].setAttribute('data-av-animation',"fadeInBottomLeft");
+			elements[4].setAttribute('data-av-animation',"fadeInUp");
+			elements[5].setAttribute('data-av-animation',"fadeInBottomRight");
+		}
 
 		if($(window).width() > 500){
 			setTimeout(function(){

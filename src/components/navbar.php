@@ -1,4 +1,7 @@
-<div class="navbar-custom">
+<?php
+    $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+?>
+<div class="navbar-custom <?php if(preg_match('/single-blog\.php/', $actual_link)){echo'bg';} ?>">
 	<div class="container">
 		<div class="row">
 			<div class="col-8">

@@ -2,6 +2,12 @@
 	h4{
 		font-size: 20px;
 	}
+	&.bg{
+		background-color: $gray-light;
+		.detail{
+			background-color: $gray-light;
+		}
+	}
 	.ponuka-detail,.blog{
 		.item{
 			z-index: -1;
