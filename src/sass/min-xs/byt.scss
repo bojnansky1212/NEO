@@ -1,0 +1,17 @@
+#byt{
+  background: linear-gradient(to bottom, $black-mid 70%, transparent 0);
+
+  h1,h2.h1{
+    color: #fff;
+    .state{
+      color: $gray-mid;
+    }
+  }
+
+  .offseted {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 91%;
+  }
+}

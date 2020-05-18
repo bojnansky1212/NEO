@@ -7,3 +7,38 @@
 		padding: 8px 20px;
 	}
 }
+
+#blog-main{
+	.landing{
+		width: 120%;
+		padding-top: 70%;
+		position: relative;
+		img{
+			display: block;
+			width: 100%;
+			object-fit: cover !important;
+			position: absolute;
+			top: 0;
+			height: 100%;
+		}
+	}
+	a{
+		color:#000!important;
+	}
+
+	h1{
+		font-size: 32px;
+	}
+	button{
+		width: 60px;
+		height: 60px;
+		opacity: 1!important;
+		padding: unset;
+	}
+	blockquote{
+		color: $gray-mid;
+		font-size: 26px !important;
+		border-left: 1px solid $gray-mid;
+		padding-left: 30px;
+	}
+}

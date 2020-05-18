@@ -1,0 +1,11 @@
+@media (min-width: map-get($grid-breakpoints, md)) {
+  #blog-main {
+    h1 {
+      font-size: 48px;
+    }
+    blockquote{
+      left: -5rem;
+      position: relative;
+    }
+  }
+}

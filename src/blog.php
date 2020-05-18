@@ -42,7 +42,7 @@
 			<?php include "./components/blog-part.php" ?>
 			<?php include "./components/blog-part.php" ?>
 
-			<div class="col-12 pt-md-6">
+			<div class="col-12 py-md-6 py-5">
 				<div class="row">
 					<div class="col-md-5 order-2 order-md-1 pl-md-5 py-2">
 						<div class="project pt-lg-4 pt-md-0 pt-4 d-flex h-100">
@@ -58,6 +58,11 @@
 					</div>
 				</div>
 			</div>
+
+            <?php include "./components/blog-part.php" ?>
+            <?php include "./components/blog-part.php" ?>
+            <?php include "./components/blog-part.php" ?>
+
 		</div>
 	</div>
 </section>
