@@ -1,0 +1,13 @@
+@media (min-width: map-get($grid-breakpoints, md)) {
+	#specialized-services {
+		background-color: $gray-light;
+
+		#accordion {
+			.card {
+				button {
+					font-size: 26px;	
+				}
+			}
+		}
+	}
+}
