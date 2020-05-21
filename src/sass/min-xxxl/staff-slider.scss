@@ -2,6 +2,16 @@
 	#staff-slider {
 		background: linear-gradient(to top, $gray-light 21.3%, transparent 0);
 		
+		&.home{
+			.staff-slider{
+				.owl-item{
+					.foto {
+						height: 33.1rem;
+					}
+				}
+			}
+		}
+
 		.staff-slider {
 			.owl-item {
 				.foto {

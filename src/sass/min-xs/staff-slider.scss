@@ -3,6 +3,14 @@
 
 	&.home{
 		background: none;
+
+		.staff-slider{
+			.owl-item{
+				.foto {
+					height: 21.3rem;
+				}
+			}
+		}
 	}
 
 	img{

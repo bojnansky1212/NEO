@@ -1,6 +1,16 @@
 @media (min-width: map-get($grid-breakpoints, sms)) {
 	#staff-slider {
 		background: linear-gradient(to top, $gray-light 30.5%, transparent 0);
+
+		&.home{
+			.staff-slider{
+				.owl-item{
+					.foto {
+						height: 23.7rem;
+					}
+				}
+			}
+		}
 		
 		.staff-slider {
 			.owl-item {
