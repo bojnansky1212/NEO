@@ -216,7 +216,7 @@
 			<div class="col-md-10 col-xl-8 m-md-auto">
 				<h2 class="mb-5">V prípade prípade záujmu nám pošlite vaše kontaktné údaje.<br>Náš maklér vás bude kontaktovať</h2>
 			</div>
-			<div class="col-md-7 col-xl-5 m-md-auto">
+			<div class="col-md-7 col-xl-6 m-md-auto">
 				<form>
 					<div class="row">
 						<div class="col-12">
@@ -235,7 +235,7 @@
 								</option>
 								<option value="A1-03-06-05">A1-03-06-05
 								</option>
-							</select2>
+							</select>
 						</div>
 						<div class="col-12">
 							<input class="formular" type="text" name="meno" placeholder="Meno a priezvisko">

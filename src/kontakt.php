@@ -14,7 +14,7 @@
 <section id="contact">
 	<div class="container py-5 py-md-6">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-6 text-md-left text-center">
 				<h2 class="h1">Spojte sa s nami!</h2>
 				<ul class="my-4 pb-3">
 					<li>
@@ -32,7 +32,7 @@
 						<a href="tel:123-456-7890"><h4 class="mb-0">+421 123-456-7890</h4></a>
 					</li>
 					<li>
-						<h4 class="mb-0">neoreal@neoreal.sk</h4>
+						<a href="mailto:"><h4 class="mb-0">neoreal@neoreal.sk</h4></a>
 					</li>
 				</ul>
 				<p class="small">IČO: 36664138<br>DIČ: 2022232498<br>IČ DPH:SK2022232498<br>IBAN: SK29 3100 0000 0042 0002 0602</p>

@@ -6,6 +6,7 @@
     .state{
       color: $gray-mid;
     }
+    font-size: 32px;
   }
 
   .offseted {
@@ -13,5 +14,12 @@
     top: 0;
     left: 100%;
     width: 91%;
+  }
+}
+
+#description{
+  h4{
+    font-size: 20px;
+    line-height: 1.2;
   }
 }

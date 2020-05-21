@@ -86,15 +86,17 @@
     	.select2-selection--single {
     		outline: none;
     		border: none;
-
-    		.select2-selection__placeholder {
-    			color: $gray-light;
-    		}
     	}
+		.select2-selection__placeholder{
+			color: #000;
+		}
+		.select2-selection__arrow b{
+			border-color: #000 transparent transparent transparent;
+		}
     }
 
     .gray-light {
-    	color: $gray-light;
+    	color: $gray-mid;
     }
 
 }

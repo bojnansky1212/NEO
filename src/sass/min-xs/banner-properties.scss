@@ -14,9 +14,9 @@
 		}
 
 		select {
-		    width: 100%;
-		    font-size: 26px;
-		    border: 0;
+				width: 100%;
+				font-size: 26px;
+				border: 0;
 		}
 
 		.select2-selection__rendered {
@@ -25,30 +25,29 @@
 			padding-left: 0;
 		}
 
-	    .select2-container--default {
+			.select2-container--default {
 
-	    	.select2-selection--single {
-	    		outline: none;
-	    		border: none;
+				.select2-selection--single {
+					outline: none;
+					border: none;
 
-	    		.select2-selection__placeholder {
-	    			color: $gray-light;
-	    		}
-	    	}
-	    }
+				.select2-selection__placeholder{
+					color: #000;
+				}
+				.select2-selection__arrow b{
+					border-color: #000 transparent transparent transparent;
+				}
+			}
+		}
 		
 		.search {
 			flex: 0 0 100%;
-
-			button {
-				height: 7rem;
-			    width: 100%;
-			    border: none;
+			button{
+				height: 4rem;
+				width: 100%;
+				border: none;
 				background-color: $black-mid;
-
-				i {
-					color: #fff;
-				}
+				color: #fff;
 			}
 		}
 	}

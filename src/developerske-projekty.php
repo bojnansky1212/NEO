@@ -102,10 +102,10 @@
 <section id="newest-blog">
 	<div class="container py-5 py-md-6">
 		<div class="row">
-			<div class="col-8">
+			<div class="col-md-8">
 				<h2>Najnovšie z blogu</h2>
 			</div>
-			<div class="col-4 text-right">
+			<div class="col-md-4 text-md-right">
 				<a href="/ponuka" class="underline mt-4">Zobraziť všetky</a>
 			</div>
 		</div>

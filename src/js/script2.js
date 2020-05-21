@@ -35,6 +35,8 @@ $('.staff-slider').owlCarousel({
 	dots:false,
 	autoplay:true,
 	autoplaySpeed:800,
+	mouseDrag:false,
+	touchDrag:false,
 	autoplayTimeout:5000,
 	responsive:{
 		0:{

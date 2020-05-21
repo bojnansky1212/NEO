@@ -1,6 +1,15 @@
 #staff-slider {
 	background: linear-gradient(to top, $gray-light 27.5%, transparent 0);
-	
+
+	&.home{
+		background: none;
+	}
+
+	img{
+		pointer-events: none;
+		user-select: none;
+	}
+
 	.staff-slider {
 
 		.owl-stage-outer {
@@ -10,6 +19,7 @@
 		.owl-item {
 			opacity: 0;
 			transition: opacity .5s;
+
 
 
 			&.active {
@@ -22,9 +32,9 @@
 
 				.person-image {
 					position: absolute;
-				    top: 0;
-				    left: -25px;
-				    width: calc(100% + 50px)!important;
+					top: 0;
+					left: -25px;
+					width: calc(100% + 50px)!important;
 				}
 			}
 

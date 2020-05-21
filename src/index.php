@@ -2,6 +2,7 @@
 <?php include "./components/navbar.php" ?>
 <?php include "./components/pre-loader.php"?>
 
+<a href="#ponuka" class="scroll"><i class="fas fa-angle-double-down"></i></a>
 <section id="banner" class="position-relative">
 	<div class="banner owl-carousel owl-theme">
 		<div class="item position-relative" >
@@ -179,6 +180,46 @@
 		</div>
 		<div class="row d-none">
 			<img class="w-100" src="images/postavy.png"/>
+		</div>
+	</div>
+</section>
+<section id="staff-slider" class="home">
+	<div class="container">	
+		<div class="row pt-4 text-center">
+			<div class="col-12">
+				<div class="staff-slider owl-carousel owl-theme">
+					<div class="item">
+						<div class="foto">
+							<img src="images/typek.png" alt="typek" class="w-100 person-image">
+						</div>
+					</div>
+					<div class="item">
+						<div class="foto">
+							<img src="images/typek2.png" alt="typek" class="w-100 person-image">
+						</div>
+					</div>
+					<div class="item">
+						<div class="foto">
+							<img src="images/typek.png" alt="typek" class="w-100 person-image">
+						</div>
+					</div>
+					<div class="item">
+						<div class="foto">
+							<img src="images/typek2.png" alt="typek" class="w-100 person-image">
+						</div>
+					</div>
+					<div class="item">
+						<div class="foto">
+							<img src="images/typek.png" alt="typek" class="w-100 person-image">
+						</div>
+					</div>
+					<div class="item">
+						<div class="foto">
+							<img src="images/typek2.png" alt="typek" class="w-100 person-image">
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

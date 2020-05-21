@@ -15,9 +15,9 @@
 	<div class="container py-5 py-md-6">
 		<div class="row text-center">
 			<div class="col-md-9 m-auto">
-				<p class="mb-4 mb-md-5">
+				<h5 class="mb-4 mb-md-5">
 					O SPOLOČNOSTI
-				</p>
+				</h5>
 				<h2 class="h1 mb-4">Partner, ktorý vníma svet v súvislostiach</h2>
 				<h4 class="mb-4">
 					Realitný trh pre nás nepredstavuje iba priestor pre kúpu a predaj nehnuteľností. Naopak. Vnímame ho ako komplexnú, dynamickú činnosť, ktorá je prepojená s dizajnom, architektúrou, investíciami, stratégiou, poradenstvom, marketingom ale i verejným záujmom.

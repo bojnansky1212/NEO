@@ -3,7 +3,7 @@
 	    width: 100%;
 	    font-size: 26px;
 	    border: 0;
-	    border-bottom: 1px solid $gray-light;
+	    border-bottom: 1px solid $gray-mid;
 	    margin-bottom: 1.5rem;
 	    padding-bottom: 1rem;
 
@@ -21,7 +21,7 @@
     		border: none;
 
     		.select2-selection__placeholder {
-    			color: $gray-light;
+    			color: $gray-mid;
     		}
     	}
     }
@@ -31,22 +31,22 @@
 		font-size: 26px;
 		color: $gray!important;
 		border: 0;
-	    border-bottom: 1px solid $gray-light;
+	    border-bottom: 1px solid $gray-mid;
 	    margin-bottom: 1.5rem;
 	    padding-bottom: 1rem;
 	}
 
 	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-		color: $gray-light!important;
+		color: $gray-mid!important;
 	}
 	::-moz-placeholder { /* Firefox 19+ */
-		color:  $gray-light!important;
+		color:  $gray-mid!important;
 	}
 	:-ms-input-placeholder { /* IE 10+ */
-		color:  $gray-light!important;
+		color:  $gray-mid!important;
 	}
 	:-moz-placeholder { /* Firefox 18- */
-		color:  $gray-light!important;
+		color:  $gray-mid!important;
 	}
 
 }

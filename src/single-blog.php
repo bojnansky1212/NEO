@@ -47,7 +47,7 @@
                         <div class="col-md-6">
                             <div class="row text-md-left text-center">
                                 <div class="col-3 m-auto">
-                                    <img src="images/typek-kruh.png" alt="" class="w-100">
+                                    <img src="images/typek-kruh.png" alt="" class="h-100 ml-auto d-block">
                                 </div>
                                 <div class="col-md-9 pt-md-0 pt-4">
                                     <div class="d-flex h-100">
