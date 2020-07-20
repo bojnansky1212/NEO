@@ -47,66 +47,66 @@
 			</div>
 			<div class="col-md-7">
 				<div id="accordion">
-				  	<div class="card">
-					    <div class="card-header" id="headingOne">
-					      	<h3 class="mb-0">
-					        	<button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Poloha <span class="plus">+</span>
-					        	</button>
+						<div class="card">
+							<div class="card-header" id="headingOne">
+									<h3 class="mb-0">
+									<button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Poloha <span class="plus">+</span>
+									</button>
 							</h3>
-					    </div>
-					    <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-					      <div class="card-body">
-					        <p>
-					        	Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-					        </p>
-					    	</div>
+							</div>
+							<div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+								<div class="card-body">
+									<p>
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+									</p>
+								</div>
+							</div>
 						</div>
-				  	</div>
-				  	<div class="card">
-					    <div class="card-header" id="headingTwo">
-					      	<h3 class="mb-0">
-					        	<button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">Vyhoda 02 <span class="plus">+</span>
-					       		</button>
-					       	</h3>
-					    </div>
-					    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-					      <div class="card-body">
-					        <p>
-					        	Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-					        </p>
-					    	</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+									<h3 class="mb-0">
+										<button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">Vyhoda 02 <span class="plus">+</span>
+										</button>
+									</h3>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+								<div class="card-body">
+									<p>
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+									</p>
+								</div>
+							</div>
 						</div>
-				  	</div>
-				  	<div class="card">
-					    <div class="card-header" id="headingThree">
-					      	<h3 class="mb-0">
-					        	<button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Vyhoda 03 <span class="plus">+</span>
-					        	</button>
-					        </h3>
-					    </div>
-					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-					      <div class="card-body">
-					        <p>
-					        	Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-					        </p>
-					    	</div>
+						<div class="card">
+							<div class="card-header" id="headingThree">
+									<h3 class="mb-0">
+										<button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Vyhoda 03 <span class="plus">+</span>
+										</button>
+									</h3>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+								<div class="card-body">
+									<p>
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+									</p>
+								</div>
 						</div>
-				  	</div>
-				  	<div class="card">
-					    <div class="card-header" id="headingFour">
-					      	<h3 class="mb-0">
-					        	<button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Vyhoda 04 <span class="plus">+</span>
-					        	</button>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingFour">
+									<h3 class="mb-0">
+										<button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Vyhoda 04 <span class="plus">+</span>
+										</button>
 							</h3>
-					    </div>
-					    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-					    	<div class="card-body">
-					        	<p>
-					        		Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-					        	</p>
-					    	</div>
+							</div>
+							<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+								<div class="card-body">
+										<p>
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+										</p>
+								</div>
 						</div>
-				  	</div>
+						</div>
 				</div>
 			</div>
 		</div>

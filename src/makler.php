@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="col-3 m-auto">
 				<img class="makler d-md-block d-none" src="images/typek.png"  alt="">
-                <img class="w-100 d-md-none d-block py-4" src="images/typek-kruh.png" alt="">
+				<img class="w-100 d-md-none d-block py-4" src="images/typek-kruh.png" alt="">
 			</div>
 			<div class="col-lg-5 col-md-8">
 				<div class="d-flex h-100">

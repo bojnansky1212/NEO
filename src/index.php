@@ -178,9 +178,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="row d-none">
-			<img class="w-100" src="images/postavy.png"/>
-		</div>
 	</div>
 </section>
 <section id="staff-slider" class="home">
